@@ -1,0 +1,1588 @@
+[
+  {
+    "question": "1. Welche Kennzahlen aus ihrem internen und externen Rechnungswesen verwenden Sie, um den Erfolg im Kundengeschäft zu messen und mit anderen Banken zu vergleichen?",
+    "options": [
+      "a. CET1-Ratio",
+      "b. Ausleihungsquote",
+      "c. MuM",
+      "d. Kundengeschäftsvolumen (KGV)"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "2. Auf welche Faktoren legt die Gesamtbanksteuerung laut betriebswirtschaftlicher Definition ein besonderes Augenmerk?",
+    "options": [
+      "a. Personal",
+      "b. Liquidität",
+      "c. Dichte des Filialnetzes",
+      "d. Eigenkapital",
+      "Siehe Seite 13 - Marold"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "3. Entsprechend der Systematisierung der Risiken nach ICAAP sind zur Kategorie der Kreditrisiken die folgenden Teilrisiken zu erfassen:",
+    "options": [
+      "a. Migrations- und Ausfallsrisiko",
+      "b. Beteiligungsrisiko",
+      "c. Länder- und Transferrisiko",
+      "d. Kreditkonzentrationsrisiko",
+      "Siehe Seite 50 – Marold, Siehe S. 140 Deloitte, OeNB Leitfaden S. 41"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "4. Im Rahmen der normativen Risikotragfähigkeitsperspektive:",
+    "options": [
+      "a. Kann die Risikotragfähigkeit trotz Unterschreiten des Kapitalerhaltungspuffers gegeben sein",
+      "b. Wird ein gone-concern (Liquiditätsansatz) verfolgt, mit dem sichergestellt werden soll, dass die Gläubiger des Institutes geschützt werden",
+      "c. Sollten Säule II Risikowerte dem Risikodeckungskapital gegenübergestellt werden",
+      "d. Ist eine integrierte Kapitalplanung über mindestens 3 Jahre",
+      "Siehe Marold Seite 100, Deloitte S. 160, Dellinger S. 49, Seite 17 EZB Leitfaden ICAAP, Marold S. 98,"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "5. Welche Risikomaße werden im Zuge einer modernen Banksteuerung (u.a. auch nach CRR/Crd und BWG) verwendet bzw. erwartet?",
+    "options": [
+      "a. Risikogewichtete Aktiva (RWA)",
+      "b. Regulatorische Eigenmittelquote",
+      "c. Cost Income Ratio",
+      "d. Erwarteter Verlust („expected loss“)"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "6. Welche Positionen sind wesentliche Risikopuffer der Bank nach ICAAP?",
+    "options": [
+      "a. Stille Reserven",
+      "b. Verkehrswert der Beteiligungen",
+      "c. Eigenkapital",
+      "d. Erwarteter Jahresgewinn"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "7. Welche der folgenden Aussagen über den Value-at-Risk (VaR) sind korrekt?",
+    "options": [
+      "a. Die Wahl der Haltedauer des VaR sollte sich an der Fungibilität des zu bewertenden Assets orientieren",
+      "b. Der VaR ist definiert als der geschätzte maximal erwartete Verlust, der unter üblichen Marktbedingungen innerhalb einer bestimmten Periode mit einer bestimmten Wahrscheinlichkeit eintreten kann",
+      "c. Der VaR prognostiziert genau den Verlust, den ein Finanzinstitut innerhalb einer bestimmten Haltedauer erleiden kann.",
+      "d. Ein VaR mit einer Haltedauer von 1 Tag und einem Konfidenzniveau von 99% garantiert, dass pro Jahr nur eine Wertänderung auftritt, die den gemessenen VaR übersteigt",
+      "Steinmüller, S.36"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "8. Welche Positionen in der GuV machen den Unterschied zwischen EGT und Betriebsergebnis im Jahresabschluss aus?",
+    "options": [
+      "a. Wertberichtigung zu Wertpapieren",
+      "b. Außerordentliches Ergebnis",
+      "c. Wertberichtigung zu Krediten",
+      "d. Steuern"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "9. In ihrer Bilanz finden sie folgende Positionen: „Forderungen an Kreditinstitute“ € 80 Mio., „Forderungen an Kunden“ € 320 Mio., Verbindlichkeiten ggü. Kreditinstituten“ € 20 Mio. und Verbindlichkeiten ggü. Kunden“ € 400 Mio. Wie hoch ist der Ausleihungsgrad ihrer Bank und wie interpretieren Sie diese Kennzahl?",
+    "options": [
+      "a. Der Ausleihungsgrad von 25% ist nicht zufriedenstellend für die Bank",
+      "b. Mit einem Ausleihungsgrad von 80% ist die Bank solide aufgestellt",
+      "c. Der Ausleihungsgrad ist die Kennzahl für die Beanspruchung der hereingenommenen Mittel durch die Kreditvergaben",
+      "d. Der Ausleihungsgrad beträgt 125%, die Bank sollte versuchen diesen zu reduzieren",
+      "S. 118 Marold!"
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "10.   Was ist/sind die Kernfunktionen der Gesamtbanksteuerung?",
+    "options": [
+      "a. Messung der Ertrags-/Risikorelation",
+      "b. Basis für die strategische Banksteuerung",
+      "c. Steuerung aller wesentlichen Aufgaben der Bank",
+      "d. Messung der Profitabilität der Geschäfte in Relation zum eingegangenen Risiko",
+      "Marold S. 13-16"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "11.   Welche der folgenden Eigenkapitalinstrumente wurden zur Erfüllung der Mindesteigenmittel, nach CRR/CRD und BWG, neu entwickelt?",
+    "options": [
+      "a. Neue Vorzugs- Genossenschaftskapitalanteile",
+      "b. Namensaktien mit ausschließlicher Verwendung für den Kapitalerhaltungspuffer",
+      "c. Bedingte Pflichtwandelanleihen (Contingent Convertible Bonds, Coco Bonds)",
+      "d. Mit Sicherheiten bedeckte Anleihen (Covered Bonds)",
+      "Deloitte S. 23"
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "12.   Die Konzession für das Bankgeschäft wird von der FMA erteilt. Welche aufgelisteten Tätigkeiten darf die FMA im Zuge ihrer Aufsicht durchführen?",
+    "options": [
+      "a. Die FMA kann eine Konzession niemals widerrufen",
+      "b. Die FMA kann eine Konzession widerrufen, wenn die aufsichtsrechtlichen Anforderungen der CRR nicht erfüllt werden",
+      "c. Die FMA kann eine Konzession widerrufen, wenn sie 12 Monate lang nicht ausgeübt wurde",
+      "d. Die FMA kann eine Konzession jederzeit auch ohne Angaben von Gründen widerrufen"
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "13.   Welche der folgenden Aussagen sind zutreffend:",
+    "options": [
+      "a. Für die Berechnung der Liquidity Coverage Ratio (LCR) sind grundsätzlich die Komponenten High Quality Liquid Assets (HQLA) sowie Total Net Cash Outflows über einen zukünftigen Zeitraum von 30 Kalendertagen zu erfassen",
+      "b. Die LCR soll die jederzeitige Einhaltung der Eigenmittelanforderungen sicherstellen",
+      "c. Mit der CRR wurden zwei Liquiditätskennzahlen eingeführt:",
+      "i.     LCR",
+      "ii.     NSFR",
+      "d. Unter Liquidität werden jene Posten der Bilanz verstanden die unter dem Pkt. 2. Kassa aufgeführt sind",
+      "Deloitte S. 123"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "14.   Ein Organgeschäft ist gem. § 28 BWG jedes Rechtsgeschäfts eines Kreditinstituts mit uA folgenden physischen oder juristischen Personen:",
+    "options": [
+      "a. Geschäftsleiterinnen",
+      "b. Die Ärztin des Aufsichtsratsvorsitzenden, die gleichzeitig seine Schwester ist",
+      "c. Ehegatt:innen Lebensgefährt:innen, Kindern, Wahl- und Pflegekinder der GL",
+      "d. Mitgliedern des Aufsichtsrates oder sonstigen nach der Satzung zuständigen Aufsichtsorganen",
+      "Deloitte S. 29"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "15.   Welche Rechtsakte wurden in der EU zur Umsetzung von BASEL III nötig?",
+    "options": [
+      "a. Die Novellen zu Eigenkapitalrichtlinie (CRD II, III, IV, V)",
+      "b. Der Erlass zum Bankenhilfspaket der EU und Österreichs",
+      "c. Der Eigenkapitalverordnung (CRR, CRRII)",
+      "d. Nationale Umsetzungsschritte der Eigenkapitalrichtlinien (CRD II, III, IV und V)",
+      "Siehe Gesamtbanksteuerung (flipped)"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "16.   Ein österreichisches Kreditinstitut (nach BWG) benötigt eine Konzession für die gewerbliche Erbringung von Bankgeschäften. Welche der folgenden Geschäfte/Tätigkeiten gehören dazu?",
+    "options": [
+      "a. Depotgeschäft",
+      "b. Ausgabe/Verwaltung von Zahlungsmittel",
+      "c. Einlagengeschäft",
+      "d. Inkassogeschäft",
+      "Seite 15. Deloitte"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "17.   Welche Institutionen gibt es innerhalb der EU zur Regulierung und Aufsicht von Finanzdienstleistungssektoren, die auch für österreichische Banken relevant sind?",
+    "options": [
+      "a. EZB",
+      "b. EBA",
+      "c. ESMA",
+      "d. EBRD",
+      "Siehe Deloitte S. 5"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "18.   Ein Großkredit lt. Art. 392 CRR II ist ein Kredit:",
+    "options": [
+      "a. Dessen Wert 12,5% des Kernkapitals erreicht oder überschreitet",
+      "b. Dessen Wert 10% des Kernkapitals erreicht oder überschreitet",
+      "c. Dessen Wert 10% der anrechenbaren Eigenmittel überschreitet",
+      "d. Dessen Wert € 350.000,-- überschreitet",
+      "Deloitte S. 32"
+    ],
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "question": "19.   Sie wollen in ihrer Raiffeisenbank auf das Konzept der gelebten Werte im Management setzen. Mit welchen der folgenden Entscheidungen bzw. Maßnahmen werden Sie diesem selbst gesetzten Anspruch gerecht?",
+    "options": [
+      "a. Sie verpflichten sich in ihrer Raiffeisenbank zur Umsetzung von Nachhaltigkeitsmaßnahmen und erklären das auch in der Mitarbeiterbesprechung. So sollen die Firmenautos der Geschäftsleiter künftig ausschließlich E-Fahrzeuge sein, die großen Glasflächen im Foyer sollen beschattet werden, um Strom für die Klimatisierung zu sparen und die Mitarbeiterinnen werden ermutigt, Dokumente nur zu drucken, wenn es unbedingt notwendig ist.",
+      "b. Sie bitten ihre Compliance Officerin, in der Führungskräftebesprechung eine aktuelle Präsentation zu halten und aktualisieren auf dieser Basis auch die entsprechenden Dienstanweisungen",
+      "c. Sie finanzieren als Raiffeisenbank zwei elektrische Stiegenlifte im örtlichen Tagesheim für behinderte Menschen. In der Regionalzeitung wird ein Bericht mit Foto gebracht, auch bei der Generalversammlung berichten sie darüber.",
+      "d. Sie verständigen sich im Management-Team darauf, dass Selbstverantwortung ein zentrales Prinzip in Ihrer Raiffeisenbank sein soll. Sie investieren in die Mitarbeiterentwicklung und forcieren Kompetenzentwicklung genauso wie Bewusstseinsbildung. Sie erweitern Pouvoirregelungen und kommunizieren ihre Motivation dazu auch explizit intern. In weiterer Folge betonen Sie auch in den Leistungsversprechen Ihren Kunden gegenüber Kompetenz der Beraterinnen und die Geschwindigkeit der Entscheidungen.",
+      "Siehe Weißenböck S. 34 (Genossenschaft und Verbund)"
+    ],
+    "correct_indices": [
+      3
+    ]
+  },
+  {
+    "question": "20.   Sinnstiftende Führung ist ein sehr wertvolles Führungskonzept, um Mitarbeitende langfristig an ein Unternehmen zu binden. Bei diesem Führungsstil geht es eindeutig darum, folgende Parameter klar zu definieren und auch entsprechend in der Organisation als Führungskraft konsequent im Alltag umzusetzen.",
+    "options": [
+      "a. Raiffeisen-Marke positionieren und leben (z.B. Loyalität zu einer Mitarbeiterin, die erkrankt ist)",
+      "b. Praktische Maßnahmen zur Stärkung der Unternehmenskultur (z.B. Weihnachtsfeier, Betriebsausflug)",
+      "c. Purpose=Zweck vermitteln",
+      "d. Wertehaltung klar definieren"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "21.   Welche der folgenden Aussagen über Altersteilzeit treffen zu?",
+    "options": [
+      "a. Der AMS-Lohnausgleich wird bis zur Höchstbeitragsgrundlage des ASVG geleistet",
+      "b. Bei einer Blockzeitvereinbarung muss eine Ersatzarbeitskraft eingestellt werden.",
+      "c. Der AMS-Lohnausgleich wird unbegrenzt geleistet",
+      "d. Altersteilzeit benötigt die Zustimmung der Belegschaft",
+      "Siehe Arbeitsrecht. S. 48 und Seite 50"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "22.   Was ist bei der Beschäftigung von werdenden Müttern zu beachten?",
+    "options": [
+      "a. Eine schwere körperliche Arbeit oder Arbeit die für ihren Organismus während der Schwangerschaft oder für das werdende Kind schädlich sind (zb. Ständiges Stehen, Belästigung durch Rauch)",
+      "b. Ab dem 6. Monat keine schwere körperliche Arbeit oder Arbeit, die für ihren Organismus während der Schwangerschaft oder für das werdende Kind schädlich sind (z.B. ständiges Stehen, Belästigung durch Rauch)",
+      "c. Nachtarbeitsverbot von 20:00 – 06:00 Uhr",
+      "d. Verbot von Mehrarbeit",
+      "Siehe Arbeitsrecht, S. 20"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "23.   Welche der folgenden Begriffe kann man dem Thema Arbeitsrecht zuordnen?",
+    "options": [
+      "a. Fürsorgepflicht",
+      "b. Günstigkeitsprinzip",
+      "c. Mandatsbeschränkung",
+      "d. Treuepflicht",
+      "Siehe Arbeitsrecht S. 5 und S. 28"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "24.   Wer schließt für den Raiffeisensektor auf Arbeitgeberseite den Kollektivvertrag ab?",
+    "options": [
+      "a. Die RBI",
+      "b. Die RZB",
+      "c. Der Österreichische Raiffeisenverband",
+      "d. Die jeweilige RLB"
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "25.   Ab welchem Zeitpunkt entsteht der Urlaubsanspruch?",
+    "options": [
+      "a. Der Anspruch auf Urlaub entsteht in den ersten drei Monaten des ersten Arbeitsjahres im Verhältnis zu der im Arbeitsjahr zurückgelegten Dienstzeit, nach 3 Monaten in voller Höhe",
+      "b. Ab dem zweiten Arbeitsjahr entsteht der gesamte Urlaubsanspruch mit Beginn des Arbeitsjahres",
+      "c. Ab dem zweiten Arbeitsjahr entsteht der gesamte Urlaubsanspruch nach Ablauf des ersten Quartals, vorher besteht er nur aliquot",
+      "d. Der Anspruch auf Urlaub entsteht in den ersten 6 Monaten des ersten Arbeitsjahres im Verhältnis zu der im Jahr zurückgelegten Dienstzeit, nach 6 Monaten in voller Höhe",
+      "Siehe Arbeitsrecht S. 28"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "26.   “Culture eats strategy for breakfast“ ist eine berühmte Aussage des Management Gurus Peter Drucker. Mit einer Unternehmenskulturanalyse können Herausforderungen und Erfolgsfaktoren der bestehenden Kultur herausgearbeitet und Veränderungspotentiale aufgezeigt werden. Wenn sie eine Unternehmenskulturanalyse vornehmen, worauf sollten sie besonders achten?",
+    "options": [
+      "a. Binden Sie das gesamte Unternehmen in den Prozess ein",
+      "b. Haben sie keine Scheu davor, Dinge zu behalten, die funktionieren",
+      "c. Definieren sie Kulturziele und ausgewählte Kulturverantwortliche in allen wichtigen Unternehmensbereichen",
+      "d. Führungskräfte und Entscheidungsträger müssen mit gutem Beispiel vorangehen",
+      "Siehe S. 18 Mittheisz"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "27.   Im Zuge des strategischen Managements gibt es Ziele zu definieren und Strategieoptionen zur Zielerreichung zu entwickeln, Strategien auszuwählen und umzusetzen. Welche strategischen Grundfragen sollte die Unternehmensstrategie beantworten?",
+    "options": [
+      "a. Wie hat sich das Unternehmen seit der Gründung entwickelt",
+      "b. In welchen Geschäftsfeldern wollen wir tätig sein?",
+      "c. Wie sieht die Vision des Unternehmens aus?",
+      "d. Wie wollen wir den Wettbewerb in den Geschäftsfeldern bestreiten?",
+      "Siehe Mittheisz"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "28.   In Ihrer Rolle als UnternehmenslenkerIn können Strategien unterschiedliche Eigenschaften erfüllen, die sowohl vorteil- als auch nachteilhaft ausgelegt werden können. Welche können das sein?",
+    "options": [
+      "a. Die Strategie sorgt für Beständigkeit & gibt Stabilität, reduziert dabei allerdings eventuell das Kreativitätsniveau",
+      "b. Die Strategie beschreibt die Grundwerte und Einstellungen einer Organisation",
+      "c. Die Strategie bündelt Aktivitäten und erleichtert Entscheidungen",
+      "d. Die Strategie legt Vertriebs- und Marketingbudgets fest",
+      "Siehe S. 9 Mittheisz"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "29.   Im strategischen Management stehen Ihnen unterschiedliche Bausteine des Strategiesystems/Strategiehaus zur Verfügung, die jeweils eine Antwort auf unterschiedliche Fragestellungen geben sollen. Neben der Vision z.B. auch die Mission eines Unternehmens. Richtig erarbeitet und eingesetzt beantwortet die Mission welche Frage?",
+    "options": [
+      "a. Welchen Zweck erfüllt das Unternehmen für die Kunden, Mitarbeiter und Gesellschaft?",
+      "b. Welchen Zweck hat das Unternehmen für die Eigentümer?",
+      "c. Welchen Wachstumspfad hat das Unternehmen geplant?",
+      "d. Welche sozialen Projekte sollen Mitarbeiter verfolgen?"
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "30.   Der Blick auf das eigene Unternehmen kann mit Hilfe von unterschiedlichen Instrumenten, wie z.B. Unternehmenskulturanalyse, SWOT-Analyse oder Organigramm-Analyse durchgeführt werden. Wenn sie das Instrument der Organigramm-Analyse anwenden möchten, welche grundsätzlichen Nachteile von Organigrammen können bei einer solchen Analyse eventuell hinderlich sein?",
+    "options": [
+      "a. Organigramme bilden nur die Wunschstruktur ab, haben mit der Realität aber nichts zu tun",
+      "b. Organigramme sind nur Momentaufnahmen, die keinen andauernden Bestand haben und zudem gepflegt werden müssen",
+      "c. Organigramme sind nicht für den internationalen Vergleich geeignet",
+      "d. Organigramme sind in hohem Maß vereinfachend, Kommunikationswege und Hierarchien sind oft losgelöst von Organisationseinheiten",
+      "Siehe S. 14 Mittheisz"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "31.   Als Entscheidungsträger:In gilt es im Vorfeld bzw. im Laufe eines Strategieentwicklungsprozess eine ausführliche Analysephase des Unternehmens und der Unternehmensumwelt durchzuführen. Welche Managementmodelle können Sie dafür z.B. heranziehen?",
+    "options": [
+      "a. Die Industriestrukturanalyse",
+      "b. Die Balanced Scorecard",
+      "c. Die Stakeholder-Analyse",
+      "d. Die SWOT-Analyse",
+      "Siehe S. 10 Mittheisz"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "32.   Sich laufend verändernde externe und interne Einflüsse stellen eine Organisation vor laufende Herausforderungen und lösen Anpassungs- und Veränderungsprozesse aus. Das macht eine kontinuierliche Beschäftigung mit strategischem Management und regelmäßige Strategieentwicklungsprozesse unabdingbar. Wenn sie eine Strategie entwickeln, mit welchen groben Phasen sollten sie sich in diesem Strategieentwicklungsprozess beschäftigen, um die eigene Organisation erfolgreich weiterentwickeln bzw. neu aufstellen zu können?",
+    "options": [
+      "a. Strategieoptionen-Wahl und konsequente Strategieimplementierung",
+      "b. Zielbildung",
+      "c. Umweltanalyse",
+      "d. Produktportfolio-Bereinigung",
+      "Folie 19 Mittheisz (Seite 10)"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "33.   Welche Ebenen gehören zum Strategiesystem eines Unternehmens?",
+    "options": [
+      "a. Standorte/Filialen",
+      "b. Vision",
+      "c. Einstellungen, Grundwerte",
+      "d. Unternehmensziele",
+      "Folie 16 Mittheisz (Seite 8)"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "34.   Welche Phasen gehören zu einem Stakeholder Analyse-Prozess dazu?",
+    "options": [
+      "a. Ableiten von Chancen und Risiken",
+      "b. Visualisieren des Stakeholder-Beziehungsgeflechts",
+      "c. Identifizieren der Stakeholder",
+      "d. Vertragsverhandlungen mit Stakeholdern",
+      "Folie 7 Mittheisz (Seite 4)"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "35.   Nach Edgar Schein ist die Unternehmenskultur „ein Muster gemeinsamer Grundprämissen, das die Gruppe bei der Bewältigung ihrer Probleme, externer Anpassung und interner Integration erlernt hat, das sich bewährt hat, und das somit bindend gilt; und das daher an neue Mitglieder als rational und emotional korrekter Ansatz für den Umgang mit Problemen weitergegeben wird. Auf welchen Ebenen spielt sich Unternehmenskultur ab?",
+    "options": [
+      "a. Auf der Ebene teils bewusster kollektiver Werte",
+      "b. Auf der Ebene unbewusster Prägungen",
+      "c. Auf der Ebene bewusster und sichtbarer Artefakte",
+      "d. Auf der Ebene unbewusster Grundannahmen",
+      "Folie 32 Mittheisz (Seite 16)"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "36.   Welches Schlagwort aus der „Angstzwiebel“ ist Ihnen ein Begriff?",
+    "options": [
+      "a. Identität",
+      "b. Autonomie",
+      "c. Leistung",
+      "d. Status",
+      "! - Zwiebel der Angst – selbst gezeichnet"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "37.   Was ist am wichtigsten: Strategie, Struktur, oder Kultur?",
+    "options": [
+      "a. Die Kultur – ohne die richtigen Mitarbeiter mit der passenden Einstellung an der richtigen Stelle kommt man nicht voran.",
+      "b. Die Strategie – ohne ein Ziel, kann nicht gesteuert werden",
+      "c. Die Struktur – wenn die Rahmenbedingungen nicht stimmen, kann das Ziel nicht erreicht werden",
+      "d. Alle drei sind gleich wichtig, greifen ineinander und hängen voneinander ab"
+    ],
+    "correct_indices": [
+      3
+    ]
+  },
+  {
+    "question": "38.   Welcher Aussage stimmen sie zu?",
+    "options": [
+      "a. Veränderungsabsichten können bereits Widerstände auslösen",
+      "b. Die Mitarbeiter sollen so wenig wie möglich über anstehende Veränderungen informiert werden, damit keine Unruhe entsteht",
+      "c. Systeme haben eine eigene Logik und Kultur, die man von außen oft nicht erkennen kann.",
+      "d. Der Einsatz externer Berater als Sparringpartner kann sinnvoll sein",
+      "Brüggler S. 4"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "39.   Womit sollten sie sich auseinandersetzen, wenn Sie für Ihre Raiffeisenbank im Employer Branding aktiv werden möchten?",
+    "options": [
+      "a. Wie positioniere ich meine Bank als glaubwürdigen und attraktiven Arbeitgeber",
+      "b. Was möchten die Bewerber:innen gerne von mir hören, unabhängig davon was ich bieten kann",
+      "c. Welche laufenden Maßnahmen setze ich, unabhängig von der jeweiligen Personalsuche?",
+      "d. Was sind die Alleinstellungsmerkmale von Raiffeisen am Markt?",
+      "Holzer Folie 20,"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "40.   Zu den Personalkennzahlen können gezählt werden?",
+    "options": [
+      "a. Die Mitarbeiterfluktuation",
+      "b. Die Mitarbeiterzufriedenheit",
+      "c. Die Überstundenkosten",
+      "d. Durchschnittliche Bewerbungen pro offene Position",
+      "Holzer Folie 78"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "41.   Wo kann ein Berufsbild eingesetzt werden?",
+    "options": [
+      "a. Es kann bei der Bildungsplanung eingesetzt werden",
+      "b. Es kann nicht dazu eingesetzt werden, um Gehaltsbandbreiten sichtbar zu machen",
+      "c. Es kann nicht bei der Personalplanung eingesetzt werden",
+      "d. Es kann eingesetzt werden, um anhand der Kompetenzen und Aufgaben qualitatives Feedback zu geben",
+      "Holzer Folie 9"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "42.   Was kann die Beurteilung von Bewerberinnen negativ beeinflussen?",
+    "options": [
+      "a. Notizen auf einem Leitfaden erfassen",
+      "b. Das genaue Studium der Bewerbungsunterlagen",
+      "c. Optische Beeinflussung",
+      "d. Der Halo- und/oder Horn Effekt",
+      "Holzer Folie 42"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "43.   Warum ist eine Personalstrategie wichtig und notwendig?",
+    "options": [
+      "a. Um frühzeitig zu erkennen, welche Kompetenzen und Fähigkeiten in Zukunft notwendig sind.",
+      "b. Die Geschäftsstrategie lässt sich ohne die notwendigen Personalressourcen nicht umsetzen",
+      "c. Um in Zukunft die notwendigen Personalressourcen zur Verfügung zu haben",
+      "d. Wenn die Unternehmensstrategie gut ausformuliert ist, dann kann eine Personalstrategie entfallen"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "44.   Warum stellt das Ressourcenmanagement eine wesentliche Aufgabe einer Führungskraft dar und warum ist es so wichtig?",
+    "options": [
+      "a. Durch effektives Ressourcenmanagement benötigt es keine zusätzlichen SOLL-IST-Analysen mehr.",
+      "b. Durch effektives Ressourcenmanagement wird eine Arbeitsüberlastung oder die Abhängigkeit von Ressourcen vermieden",
+      "c. Die Ressourcenplanung dient nicht dazu, Einblick in die Bandbreite anderer Teams und deren Auslastung/Verfügbarkeit zu gewinnen",
+      "d. Durch vorausschauende Planung des Ressourceneinsatzes können Fehler behoben werden, bevor sie passieren",
+      "Management der MF, Folie 41"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "45.   Sie möchten das Ressourcenmanagement innerhalb der Raiffeisenbank optimieren. Welche Möglichkeiten gibt es in diesem Bereich?",
+    "options": [
+      "a. Digitale Möglichkeiten werden genutzt",
+      "b. Tätigkeiten in der Bank werden gebündelt",
+      "c. Bildung von Personalunionen",
+      "d. Ein Kompetenzzentrum für spezialisierte Beratung",
+      "Management der MF, Folie 47"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "46.   Sie beschäftigen sich mit dem mittelfristigen Ressourcenmanagement inkl. Konkreter Zuweisung von Ressourcen zu Tätigkeiten und Funktionen in der Bank. Dabei werden die Kapazitätsanforderungen mit einbezogen und in weiterer Folge auch an die Akquise von neuen Mitarbeiter:innen bzw. an Outsourcing gedacht. In welcher Dimension des Ressourcenmanagements befinden Sie sich?",
+    "options": [
+      "a. Taktische Dimension",
+      "b. Methodische Dimension",
+      "c. Operative Dimension",
+      "d. Strategische Dimension",
+      "Management der MF, Folie 40"
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "47.   Sie sind seit einigen Jahren Leiter:in der Marktfolge und haben sich eingehend mit der Prozessoptimierung in der Raiffeisenbank beschäftigt. Dafür haben Sie viel Zeit investiert. Was können Zielsetzungen für das Vorhaben sein?",
+    "options": [
+      "a. Die Wirtschaftlichkeit der Ablauforganisation soll gesteigert werden",
+      "b. Die Mitarbeiter:innen sollen sich strikt an alle Ihre Prozess-Vorgaben halten ohne die Sinnhaftigkeit zu hinterfragen",
+      "c. Die Durchlaufzeiten für Kundenanfragen sollen verkürzt werden",
+      "d. Die Kapazitäten in ihrer Raiffeisenbank sollen optimal genützt werden",
+      "Management der MF, Folie 21"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "48.   Nennen Sie die Charakteristika des strategischen Prozessmanagements?",
+    "options": [
+      "a. Beschäftigt sich mit der Erstellung der Vision für die Bank",
+      "b. Alle Teile des Unternehmens werden erfasst und beachtet",
+      "c. Ist langfristig, zielorientiert und umfassend",
+      "d. Ist langfristig, orientiert an Teilzielen und betrifft kleinere Teile des Unternehmens",
+      "Management der MF, Folie 19"
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "49.   Der Produktkatalog ist Teil des Werteangebotes. Folgende Aussagen sind richtig:",
+    "options": [
+      "a. Der Produktkatalog soll möglichst straff und übersichtlich sein",
+      "b. Der Produktkatalog soll auf die wesentlichen Produktfelder abbilden (Sparen, Konto, Finanzierung,…)",
+      "c. Der Produktkatalog dient als Basis für die Kompetenzzuordnung",
+      "d. Der Produktkatalog mit möglichst vielen Produkten um möglichst viele Kundenwünsche zu erfüllen",
+      "Management Vertrieb, Folie 39"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "50.   Welche Vertriebs- und Servicekanäle kennen Sie?",
+    "options": [
+      "a. Kreditvermittler",
+      "b. Bankstelle",
+      "c. Telefon",
+      "d. Raiffeisen Mobil",
+      "Management Vertrieb, Folie 58 und 59"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "51.   Was ermöglichen die Mitarbeiter:innen im Vertrieb als Schlüsselressource?",
+    "options": [
+      "a. Sponsoring für Vereine",
+      "b. Erträge für die Bank erzielen",
+      "c. Arbeitsplätze in der Region schaffen",
+      "d. Wertangebot für unsere Kunden schaffen",
+      "Management Vertrieb, Folie 75"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "52.   Welche Aspekte sind für den Aufbau und Entwicklung der Kundenbeziehung relevant?",
+    "options": [
+      "a. Die Bank lukriert hohe Beteiligungserträge",
+      "b. Funktionsfähiges digitales Angebot – schnell/bequem/einfach",
+      "c. Empathiefähigkeit und Kompetenz der Mitarbeiter:innen",
+      "d. Die Bank hat ihre Kosten im Griff",
+      "Management Vertrieb, Folie 73"
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "53.   Welche zentralen Anforderungen werden im Zusammenhang mit der Vertriebssteuerung an die Mitarbeiter:innen gestellt?",
+    "options": [
+      "a. Alle Ausbildungen mit Auszeichnung abschließen",
+      "b. Perfektion betreffend Bartransaktionen",
+      "c. Gleichwertiger Einsatz aller Kanäle",
+      "d. Interesse an Menschen und Empathiefähigkeit",
+      "Management Vertrieb, Folie 86"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "54.   Welche Vorhaben würden sie als Projekte durchführen?",
+    "options": [
+      "a. Die Schalterzeiten in einer der Bankstellen sollen neu geregelt werden. Um mehr Gelegenheit für persönliche Beratung zu bieten, sollen die Zeiten bis Ende des kommenden Monats um 20 % reduziert werden. Der Mittwochnachmittag wird besonders schlecht angenommen.",
+      "b. Der Kundenbereich einer der Bankstellen wurde seit vielen Jahren nicht adaptiert und soll nun modernisiert werden. Erste Gespräche der GL mit Funktionär:innen, benachbarten Banken und Kund:innen legen viele unterschiedliche Stoßrichtungen offen.",
+      "c. Die externe Revision hat sich angekündigt. Der Geschäftsleitung ist es besonders wichtig, dass in diesem Jahr alles glatt läuft. Es verbleiben noch wenige Wochen, um die notwendigen Vorbereitungen zu treffen.",
+      "d. Die neue Geschäftsleiterin regt an die Kundensegmentierung der Bank zu überdenken. Ein Expert:innenteam soll in den kommenden Monaten die Ausgangslage analysieren und ein Zielszenario entwickeln.",
+      "Besau, Projektmanagement, S. 15 und 16"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "55.   Welche der folgenden Aussagen zum Thema Projektmanagement treffen zu?",
+    "options": [
+      "a. In der Phase der Projektplanung sollten möglichst Ressourcen eingespart werden, um diese danach für die Durchführungsphase zur Verfügung zu haben.",
+      "b. Die Meetingagenda für Abstimmungen mit der Projektleitung ist immer flexibel zu gestalten, um auf neue Entwicklungen eingehen zu können.",
+      "c. Für jedes Projekt muss es definierte Ziel(e) geben, das/die schriftlich festgehalten werden.",
+      "d. Die Zieldefinition obliegt alleine dem:r Projektautraggeber:in"
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "56.   Was sind die Schwächen einer Banksteuerung rein anhand von Volumens- und Stückzahlen?",
+    "options": [
+      "Fragen Rene:",
+      "a. Vernachlässigung der Ertragskraft",
+      "b. Lediglich Wachstum steht als Ziel im Vordergrund",
+      "c. Außerachtlassen der regulatorischen Vorschriften",
+      "d. Keine Berücksichtigung der Risikoentwicklung",
+      "Marold, Folie 12",
+      "57.   Welche der folgenden Ertragskomponenten finden Sie in den Betriebserträgen einer Bank lt. GuV?",
+      "a. Netto-Provisionsertrag",
+      "b. Erträge aus Beteiligungen",
+      "c. Außerordentliches Ergebnis",
+      "d. Netto-Zinsertrag"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      10
+    ]
+  },
+  {
+    "question": "58.   Welche Position/en zählt/zählen zu den zentralen Zielsetzungen einer erfolgreichen Gesamtbanksteuerung?",
+    "options": [
+      "a. Liquidität",
+      "b. Rendite",
+      "c. Schlagzahl",
+      "d. Risiko"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "59.   Auf welche Faktoren legt die Gesamtbanksteuerung laut betriebswirtschaftlicher Definition ein besonderes Augenmerk?",
+    "options": [
+      "a. Eigenkapital",
+      "b. Liquidität",
+      "c. Personal",
+      "d. Dichte des Filialnetzes"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "60.   Welche der folgenden Aussagen über den Value-at-Risk (VaR) sind korrekt?",
+    "options": [
+      "a. Der VaR ist definiert als der geschätzte, maximal erwartete Verlust, der unter üblichen Marktbedingungen innerhalb einer bestimmten Periode mit einer bestimmten Wahrscheinlichkeit eintreten kann",
+      "b. Der VaR prognostiziert genau den Verlust, den ein Finanzinstitut innerhalb einer bestimmten Haltedauer erleiden kann",
+      "c. Die Wahl der Haltedauer des VaR sollte sich an der Fungibilität des zu bewertenden Assets orientieren",
+      "d. Der VaR mit einer Haltedauer von 1 Tag und einem Konfidenzniveau von 99% garantiert, dass pro Jahr nur eine Wertänderung auftritt, die den gemessenen VaR übersteigt"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "61.   Eine prozessorientierte Standardstückkostenrechnung (DB-Rechnung) ermöglicht die Verrechnung der direkten Kosten, die unmittelbar mit dem jeweiligen Geschäft verbunden sind. Welche Prozesse werden Sie hier konkret definieren bzw. bewerten?",
+    "options": [
+      "a. Berechnung der Standardstückkosten: Zeit(schätzung) pro Person multipliziert mit dem anzuwendenden Stundensatz",
+      "b. Stückkosteninformationen verknüpfen die Kalkulation des Einzelgeschäftes mit dem Produktivitätsergebnis",
+      "c. Ermittlung des Standardressourcenverbrauchs wie Personal- und Sachkosten",
+      "d. Der Produktkatalog und die Standardarbeitsabläufe müssen klar definiert sein",
+      "Steinmüllner Seite 15 und 16"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "62.   Welche der folgenden Aussagen im Rahmen der statischen Zinselastizitätsbilanz sind korrekt?",
+    "options": [
+      "a. Es werden betragsmäßige Inkongruenzen zwischen den Festzinsaktiva und -passiva als Ursache des Zinsspannenrisikos angesehen",
+      "b. Festzinspositionen werden mit einer Zinselastizität von 1 berücksichtigt",
+      "c. Über Elastizitäten wird dem Umstand Rechnung getragen, dass sich die Entwicklung der Konditionen von Kundengeschäften eng an der Veränderung bestimmter Geld- und Kapitalmarktzinsen orientiert.",
+      "d. Ein aktivischer Elastizitätsüberhang von 0,03 bedeutet, dass eine Erhöhung des Marktzinssatzes um 1%-Punkt zu einer Reduktion der Bruttozinsspanne um 0,03%-Punkte führt",
+      "Steinmüllner Seite 49/48"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "63.   Welche der folgenden Kennzahlen haben bei der Ergebnisanalyse einer Bank aus der GuV alleine besondere Bedeutung?",
+    "options": [
+      "a. Ausleihungsquote",
+      "b. Risikokosten (WB in % vom Betriebsergebnis)",
+      "c. Eigenkapitalrendite",
+      "d. Cost-Income-Ratio"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "64.   Was ist/sind die Kernfunktionen der Gesamtbanksteuerung?",
+    "options": [
+      "a. Basis für die strategische Banksteuerung",
+      "b. Steuerung aller wesentlichen Aufgaben der Bank",
+      "c. Messung der Profitabilität der Geschäfte in Relation zum eingegangenen Risiko",
+      "d. Messung der Ertrags-/Risikorelation"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "65.   Nennen Sie die Kennzahl/en, welche bei der Berechnung sowohl Daten aus der Gewinn- und Verlustrechnung als auch aus der Bilanz benötigen?",
+    "options": [
+      "a. Zinsspanne in % der Bilanzsumme",
+      "b. Eigenkapitalrendite (Return on Equity RoE)",
+      "c. Ausleihungsquote",
+      "d. Eigenkapitalquote"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "66.   Verstöße gegen das BWG und die CRR stehen unter einer Reihe von Strafsanktionen. Welche der folgenden Aktionen kann die FMA tätigen?",
+    "options": [
+      "a. Die FMA kann empfindliche Strafen gegen die Geschäftsleiter aussprechen",
+      "b. Die FMA kann zwar keine Strafen gegen die Geschäftsleiter erheben, dafür aber strenge Strafen gegen das Kreditinstitut",
+      "c. Die FMA kann bei schwerwiegenden Verstößen eine Konzession entziehen",
+      "d. Die FMA kann bei Verstößen den Funktionären den Auftrag erteilen die Geschäftsleiter zu kündigen"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "67.   Ein Großkredit lt. Art. 392 CRR II ist ein Kredit:",
+    "options": [
+      "a. Dessen Wert 10% des Kernkapitals erreicht oder überschreitet",
+      "b. Dessen Wert 12,5% des Kernkapitals erreicht oder überschreitet",
+      "c. Dessen Wert 350.000 EUR überschreitet",
+      "d. Dessen Wert 10% der anrechenbaren Eigenmittel überschreitet"
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "68.   Ein Organgeschäft ist gemäß § 28 BWG jedes Rechtsgeschäft eines Kreditinstitutes mit uA folgenden physischen oder juristischen Personen:",
+    "options": [
+      "a. Ehegatt:innen, Lebensgefährt:innen, Kindern, Wahl- und Pflegekindern der Geschäftsleitung",
+      "b. Mitgliedern des Aufsichtsrates oder sonstigen nach der Satzung zuständigen Aufsichtsorganen",
+      "c. Geschäftsleiter:innen",
+      "d. Die Ärztin des Aufsichtsratsvorsitzenden, die gleichzeitig seine Schwester ist"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "70.   Laut den Sorgfaltspflichten der Geschäftsleitung müssen diese insbesondere die bankgeschäftlichen Risiken begrenzen. Welche der folgenden Punkte gehören dazu?",
+    "options": [
+      "69.   Kapitalpuffer, die seit 01.01.2016 zu halten sind, setzen sich folgendermaßen zusammen:",
+      "a. Die werden aus Kernkapital gebildet (AT1)",
+      "b. Sie werden aus hartem Kernkapital gebildet (CET 1)",
+      "c. Sie werden aus Ergänzungskapital gebildet (T2)",
+      "d. Keiner der vorherigen Aussagen ist zutreffend",
+      "Dellinger und Deloitte 20",
+      "a. Das Risiko einer übermäßigen Verschuldung",
+      "b. Das Zinsänderungsrisiko",
+      "c. Das Marktrisiko",
+      "d. Das operationelle Risiko",
+      "Folie 35 Deloitte",
+      "71.   Im Zuge der Niederlassungsfreiheit können Institute über Zweigstellen in anderen Mitgliedsstaaten tätig werden. Welche der folgenden Voraussetzungen müssen erfüllt sein, damit eine Zweigstelle eröffnet werden darf?",
+      "a. Das Institut muss seinen Sitz in einem Mitgliedsstaat haben",
+      "b. Die Aufsichtsbehörde des Zielstaates muss darüber informiert werden (Notifikation)",
+      "c. Das Institut muss im Mitgliedsstaat des Sitzes zugelassen und von den dort zulässigen Aufsichtsbehörden überwacht werden",
+      "d. Die Aufsichtsbehörde des Herkunftslandes muss informiert werden. (Notifikation)",
+      "Deloitte Seite 17"
+    ],
+    "correct_indices": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "question": "72.   Wer unterliegt den Fit & Proper Anforderungen gemäß EBA Leitlinien und FMA Rundschreiben?",
+    "options": [
+      "a. Inhaber von Schlüsselfunktionen",
+      "b. Mitglieder der Geschäftsleitung",
+      "c. Mitglieder des Aufsichtsrates",
+      "d. Alle Mitglieder",
+      "Dellinger"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "73.   Welche der folgenden Kapitalpuffer wurden ab 01.01.2016 stufenweise in der EU eingeführt?",
+    "options": [
+      "a. Ein allgemeiner Kapitalerhaltungspuffer in der Höhe von 2,5%",
+      "b. Ein Kapitalpuffer für global systemrelevante Banken (G-SIBs) von bis zu 3,5%",
+      "c. Ein Tier 2-Kapitalpuffer im Ausmaß von 2%",
+      "d. Kapitalpuffer für operationale Risiken",
+      "Seite 20 Deloitte",
+      "74.   Welche Maßstäbe sind in der Führungsarbeit zur Etablierung eines Wertekorsetts besonders hilfreich?",
+      "a. Konsequenz",
+      "b. Kommunikation",
+      "c. Vernetztes Denken",
+      "d. Klarheit",
+      "Weissenböck Seite 45"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "question": "75.   Sie kommen nach der Generalversammlung an einen Tisch zu sitzen, an dem mit Interesse und Leidenschaft über „das größere Ganze von Raiffeisen“ diskutiert wird. Sie hören unterschiedliche Aussagen. Welche davon sind richtig?",
+    "options": [
+      "a. Der österreichische Raiffeisenverband ist mehr als ein Bankenverband. Er hat neben Kreditgenossenschaften auch die Interessen der Lagerhäuser sowie der Molkereien und anderer Genossenschaften nach dem System Raiffeisen zu vertreten",
+      "b. Die Anzahl der Raiffeisenbanken pro Bundesland variiert je nach Bundesland-Größe. Die durchschnittlichen Bilanzsummen sind jedoch in jedem Bundesland nahezu gleich hoch.",
+      "c. Die RBI ist eine Aktiengesellschaft, die vollständig im Eigentum der Raiffeisen Bankengruppe Österreich steht.",
+      "d. Auch bei Raiffeisen ist die Anzahl der Bankstellen in den letzten Jahren gesunken. Dennoch aber betreibt die Raiffeisen Bankengruppe bei weitem die meisten Bankstellen in Österreich."
+    ],
+    "correct_indices": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "76.   Was versteht man unter einem Kollektivvertrag?",
+    "options": [
+      "a. Vereinbarung zwischen kollektivvertragsfähigen Körperschaften",
+      "b. Vereinbarung zwischen Dienstnehmer und Funktionären",
+      "c. Vereinbarung zwischen Dienstgeber und Betriebsrat",
+      "d. Vereinbarung zwischen Dienstnehmer und Dienstgeber"
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "77.   Wie lange beträgt die Schutzfrist für werdende Mütter?",
+    "options": [
+      "a. Kommt es zu einer Verkürzung der 8-Wochenfrist vor der Entbindung, dann verlängert sich die Schutzfrist nach der Entbindung um die Anzahl der Tage längstens jedoch insgesamt 16 Wochen nach der Entbindung",
+      "b. Kommt es zu einer Verkürzung der 8-Wochenfrist vor der Entbindung, dann verlängert sich die Schutzfrist nach der Entbindung um die Anzahl der Tage längstens jedoch insgesamt 12 Wochen nach der Entbindung",
+      "c. 8 Wochen vor dem voraussichtlichem Entbindungstermin und 8 Wochen nach der Geburt des Kindes",
+      "d. Bei Frühgeburten, Mehrlingsgeburten oder Kaiserschnittentbindungen verlängert sich die Frist des Beschäftigungsverbotes nach der Entbindung auf 12 Wochen",
+      "Seite 21 Arbeitsrecht"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "78.   Ab welchem Zeitpunkt entsteht der Urlaubsanspruch?",
+    "options": [
+      "a. Ab dem zweiten Arbeitsjahr entsteht der gesamte Urlaubsanspruch nach Ablauf des ersten Quartals, vorher besteht er nur aliquot",
+      "b. Der Anspruch auf Urlaub entsteht in den ersten drei Monaten des ersten Arbeitsjahres im Verhältnis zu der im Arbeitsjahr zurückgelegten Dienstzeit, nach 3 Monaten in voller Höhe",
+      "c. Der Anspruch auf Urlaub entsteht in den ersten 6 Monaten des ersten Arbeitsjahres im Verhältnis zu der im Jahr zurückgelegten Dienstzeit, nach 6 Monaten in voller Höhe",
+      "d. Ab dem zweiten Arbeitsjahr entsteht der gesamte Urlaubsanspruch mit Beginn des Arbeitsjahres"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "79.   Welche der folgenden Aussagen bezüglich Bestimmungen eines Dienstvertrages ist/sind korrekt:",
+    "options": [
+      "a. Der Dienstnehmer ist nicht berechtigt, ohne vorhergehende schriftliche Zustimmung des Dienstgebers eine Nebenbeschäftigung auszuüben",
+      "b. Der Dienstnehmer ist berechtigt jederzeit und ohne vorherige Zustimmung des Dienstgebers eine Nebenbeschäftigung auszuüben",
+      "c. Der Dienstnehmer ist verpflichtet, alle ihm übertragenen Arbeiten gewissenhaft zu verrichten und diesbezügliche Bestimmungen und Weisungen genau zu beachten und seine volle Arbeitskraft uneingeschränkt zur Verfügung zu stellen",
+      "d. Es herrscht ein Konkurrenzverbot"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "80.   Was ist bei der Beschäftigung von werdenden Müttern zu beachten?",
+    "options": [
+      "a. Nachtarbeitsverbot von 20:00 – 06:00 Uhr (gesetzliche Ausnahmen vorhanden)",
+      "b. Ab dem 6. Monat keine schwere körperliche Arbeit oder Arbeit, die für ihren Organismus während der Schwangerschaft oder für das werdende Kind schädlich sind (z.B. ständiges Stehen, Belästigung durch Rauch)",
+      "c. Verbot von Mehrarbeit",
+      "d. Eine schwere körperliche Arbeit oder Arbeit die für ihren Organismus während der Schwangerschaft oder für das werdende Kind schädlich sind (zb. Ständiges Stehen, Belästigung durch Rauch)"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "81.   Die Welt die Unternehmen vor vermeintlich immer größeren Herausforderungen stellt, wird oft als VUCA bezeichnet. Welche Aspekte gehören zu VUCA dazu?",
+    "options": [
+      "a. Ambiguity (Mehrdeutigkeit)",
+      "b. Uncertainty (Ungewissheit)",
+      "c. Volatility (Volatilität)",
+      "d. Complexity (Komplexität)",
+      "Strategisches Management, Mittheisz Seite 2"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "82.   Eine detailliert durchgeführte SWOT-Analyse kann ein wertvolles Managementinstrument sein, um den Status-Quo im und rund um das Unternehmen zu bewerten. Was gibt es bei einer solchen SWOT-Analyse zu beachten?",
+    "options": [
+      "a. Bei der unternehmensexternen Analyse wird vor allem die eigene Branche und der bestehen Markt genau unter die Lupe genommen.",
+      "b. Es kommt zu einer Identifikation von unternehmensinternen Stärken und Schwächen und unternehmensexternen Chancen und Risiken",
+      "c. Die Strategieplanung beruht auf der Kombination von Stärken und Chancen",
+      "d. Jede Schwäche ist in eine Stärke umzuwandeln oder mit der Zeit zu eliminieren",
+      "Seite 23, Mittheisz"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "83.   Im Zuge des strategischen Managements gibt es Ziele zu definieren und Strategieoptionen zu Zielerreichung zu entwickeln, Strategien auszuwählen und umzusetzen. Welche strategischen Grundfragen sollte die Unternehmensstrategie beantworten?",
+    "options": [
+      "a. Wie hat sich das Unternehmen seit der Gründung entwickelt",
+      "b. Wie wollen wir den Wettbewerb in den Geschäftsfeldern bestreiten?",
+      "c. Wie sieht die Vision des Unternehmens aus?",
+      "d. In welchen Geschäftsfeldern wollen wir tätig sein?"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "84.   In Ihrer Rolle als UnternehmenslenkerIn können Strategien unterschiedliche Eigenschaften erfüllen, die sowohl vorteil- als auch nachteilhaft ausgelegt werden können. Welche können das sein?",
+    "options": [
+      "a. Die Strategie sorgt für Beständigkeit & gibt Stabilität, reduziert dabei allerdings eventuell das Kreativitätsniveau",
+      "b. Die Strategie bündelt Aktivitäten und erleichtert Entscheidungen",
+      "c. Die Strategie beschreibt die Grundwerte und Einstellungen einer Organisation",
+      "d. Die Strategie legt Vertriebs- und Marketingbudgets fest",
+      "Seite 18, Mittheisz"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "85.   Im strategischen Management stehen Ihnen unterschiedliche Bausteine des Strategiesystems/Strategiehaus zur Verfügung, die jeweils eine Antwort auf unterschiedliche Fragestellungen geben sollen. Neben der Vision z.B. auch die Mission eines Unternehmens. Richtig erarbeitet und eingesetzt beantwortet die Mission welche Frage?",
+    "options": [
+      "a. Welchen Zweck hat das Unternehmen für die Eigentümer?",
+      "b. Welche sozialen Projekte sollen Mitarbeiter verfolgen?",
+      "c. Welchen Zweck erfüllt das Unternehmen für die Kunden, Mitarbeiter und Gesellschaft?",
+      "d. Welchen Wachstumspfad hat das Unternehmen geplant?"
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "86.   Die ansteigende Komplexität im Unternehmenskontext führt dazu, dass besonders für Entscheidungsträger:innen das Thema Governance verstärkt in den Mittelpunkt des unternehmerischen Handelns rückt. Was verstehen Sie in diesem Zusammenhang als Kriterien von Governance?",
+    "options": [
+      "a. Governance sorgt dafür, dass das Unternehmen sich an anerkannte ethische Standards und Best Practices hält und im Rahmen der geltenden Gesetze und Formvorschriften arbeitet",
+      "b. Governance umfasst alle vertraglichen Vereinbarungen mit Kundinnen und Lieferanten",
+      "c. Governance orientiert sich an den ESG und sorgt für eine konforme Umsetzung im Unternehmen",
+      "d. Governance ist die Gesamtheit der Regeln, Verfahren oder Gesetze, nach denen Unternehmen geführt werden.",
+      "Mittheis  Folie 12"
+    ],
+    "correct_indices": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "87.   Welche Phasen gehören zu einem Stakeholder Analyse-Prozess dazu?",
+    "options": [
+      "a. Identifizieren der Stakeholder",
+      "b. Vertragsverhandlungen mit Stakeholdern",
+      "c. Ableiten von Chancen und Risiken",
+      "d. Visualisieren des Stakeholder-Beziehungsgeflechts"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "88.   “Culture eats strategy for breakfast“ ist eine berühmte Aussage des Management Gurus Peter Drucker. Mit einer Unternehmenskulturanalyse können Herausforderungen und Erfolgsfaktoren der bestehenden Kultur herausgearbeitet und Veränderungspotentiale aufgezeigt werden. Wenn sie eine Unternehmenskulturanalyse vornehmen, worauf sollten sie besonders achten?",
+    "options": [
+      "a. Definieren sie Kulturziele und ausgewählte Kulturverantwortliche in allen wichtigen Unternehmensbereichen",
+      "b. Haben sie keine Scheu davor, Dinge zu behalten, die funktionieren",
+      "c. Binden Sie das gesamte Unternehmen in den Prozess ein",
+      "d. Führungskräfte und Entscheidungsträger müssen mit gutem Beispiel vorangehen"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "89.   Als Entscheidungsträger:In gilt es im Vorfeld bzw. im Laufe eines Strategieentwicklungsprozess eine ausführliche Analysephase des Unternehmens und der Unternehmensumwelt durchzuführen. Welche Managementmodelle können Sie dafür z.B. heranziehen?",
+    "options": [
+      "a. Die Balanced Scorecard",
+      "b. Die Stakeholder-Analyse",
+      "c. Die Industriestrukturanalyse",
+      "d. Die SWOT-Analyse"
+    ],
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "90.   In welche Bereiche teilt sich die Analysephase in einem Strategieentwicklungsprozess auf?",
+    "options": [
+      "a. Umweltanalyse",
+      "b. Unternehmensanalyse",
+      "c. Kostenanalyse",
+      "d. Ertragsanalyse"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "91.   Im Harvard Business Manager beschreibt John P. Kotter „Acht Kardinalfehler bei der Transformation“ Welche der folgenden Aussagen zählen zu diesen Kardinalfehlern?",
+    "options": [
+      "a. Entgegenstehende Hürden werden zu früh weggeräumt",
+      "b. Siegesfeiern werden zu spät angesetzt",
+      "c. Es wird zu wenig darauf gewartet, ein Gefühl der Dringlichkeit entstehen zu lassen",
+      "d. Es wird versäumt eine Vision zu entwerfen"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "92.   Welche Aussage(n) trifft/treffen zu?",
+    "options": [
+      "a. Unternehmen, Teams, Vereine, Familien etc. sind keine „trivialenn Maschinen“, sondern komplexe soziale Systeme mit einer ganz spezifischen Eigenlogik",
+      "b. Veränderungsabsicht kann als Störung eines funktionierenden Gleichgewichts beschrieben werden",
+      "c. Die Dynamik von Veränderungen ist daher nicht linear und chaotisch, sie erfordert ein „nicht direktives“ Führungsverständnis",
+      "d. Lebende Systeme halten sich mehr an öffentlich sichtbare Anweisungen und formelle Regeln als an informelle „heimliche“ Spielregeln"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "93.   Die Bereitschaft eines Unternehmens für tiefgreifende Veränderungen („Change Readiness“) hängt von einer Reihe von Faktoren ab. Welche der folgenden Bedingungen sollten gegeben sein, damit ein Veränderungsprozess gelingt?",
+    "options": [
+      "a. Der Einsatz externer Berater als Sparringpartner kann insbesondere in der Frühphase des Projekts sinnvoll sein",
+      "b. Es sollte unbedingt ein klarer Kommunikationsplan vorliegen, der während des Prozesses ggf. auch adaptiert werden kann",
+      "c. Bei Beginn des Changeprojekts ist den Mitarbeitern eine Beschäftigungsgarantie auf mindestens drei Jahre zu geben",
+      "d. Um flexibel agieren zu können sollten die Projektmanagement-ressourcen für den Veränderungsprozess nicht geplant werden. Auch von Schätzungen ist abzuraten, da sie zu sehr binden."
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "94.   Warum ist eine Personalstrategie wichtig und notwendig?",
+    "options": [
+      "a. Die Geschäftsstrategie lässt sich ohne die notwendigen Personalressourcen nicht umsetzen",
+      "b. Wenn die Unternehmensstrategie gut ausformuliert ist, dann kann eine Personalstrategie entfallen",
+      "c. Um in Zukunft die notwendigen Personalressourcen zur Verfügung zu haben",
+      "d. Um frühzeitig zu erkennen, welche Kompetenzen und Fähigkeiten in Zukunft notwendig sind."
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "95.   Wo kann ein Berufsbild eingesetzt werden?",
+    "options": [
+      "a. Bei der Personalplanung",
+      "b. Es kann eingesetzt werden, um Gehaltbandbreiten je Berufsbild sichtbar zu machen",
+      "c. Bei der Bildungsplanung",
+      "d. Es kann eingesetzt werden, um anhand der Kompetenzen und Aufgaben qualitatives Feedback zu geben",
+      "Holzer Seite 9",
+      "96.   Welche Personalauswahlinstrumente sind zu empfehlen?",
+      "a. Strukturiertes Interview",
+      "b. Graphologische Gutachten",
+      "c. Sternzeichen",
+      "d. Assessment Center",
+      "Seite 40 Holzer",
+      "97.   Was muss man bei der Formulierung einer Stellenausschreibung gesetzlich verpflichtend beachten?",
+      "a. Standort der Stelle",
+      "b. Geschlechterneutrale Formulierung",
+      "c. Mindestgehaltsangabe",
+      "d. Die Aufgaben der Stelle"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "question": "98.   Was kann die Beurteilung von Bewerberinnen negativ beeinflussen?",
+    "options": [
+      "a. Optische Beeinflussung",
+      "b. Der Halo- und/oder Horn Effekt",
+      "c. Notizen auf einem Leitfaden erfassen",
+      "d. Das genaue Studium der Bewerbungsunterlagen",
+      "Seite 38 Holzer"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Kreditantrag, da in drei Tagen der Unterschriftentermin mit dem Kunden stattfindet. Leider haben ein paar Unterlagen gefehlt und somit hat sich der Freigabetermin mit der GL-Sitzung überschnitten und somit den ganzen Prozess verzögert. Wie reagieren sie als Marktfolge-Verantwortlicher?",
+    "options": [
+      "99.   Andreas ist Kundenberater in der Raiffeisenbank. Er benötigt dringend den fertigen",
+      "a. Der interne Prozess muss gut abgestimmt sein, sodass alle Schnittstellen gut funktionieren",
+      "b. Der Kunde soll seinen Kreditantrag rechtzeitig unterschreiben, und es werden alle Hebel für die Einhaltung des vereinbarten Termines in Bewegung gesetzt",
+      "c. Wichtige Unterlagen zur Bearbeitung des Kreditantrags haben gefehlt, der Unterschriftentermin mit dem Kunden muss etwas verschoben werden+",
+      "d. Andreas kommt auf die „schwarze Liste“ in der Marktfolge. Künftige Kreditanträge von ihm werden speziell auf fehlende Unterlagen kontrolliert"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "100.              Nennen Sie die Charakteristika des operativen Prozessmanagements?",
+    "options": [
+      "a. Ist kurzfristiger, dabei eingegrenzt im Wirkungsbereich und auf Teilziele ausgelegt",
+      "b. Alle Teile des Unternehmens werden erfasst und beachtet",
+      "c. Beschäftigt sich mit der Implementierung von strategischen Prozessen",
+      "d. Ist langfristig, zielorientiert und umfassend"
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "101.              Warum stellt das Ressourcenmanagement eine wesentliche Aufgabe einer Führungskraft dar und warum ist es so wichtig?",
+    "options": [
+      "a. Durch effektives Ressourcenmanagement benötigt es keine zusätzlichen SOLL-IST-Analysen mehr.",
+      "b. Die Ressourcenplanung dient nicht dazu, Einblick in die Bandbreite anderer Teams und deren Auslastung/Verfügbarkeit zu gewinnen",
+      "c. Durch effektives Ressourcenmanagement wird eine Arbeitsüberlastung oder die Abhängigkeit von Ressourcen vermieden",
+      "d. Durch vorausschauende Planung des Ressourceneinsatzes können Fehler behoben werden, bevor sie passieren",
+      "Seite 41 Management der Marfo"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "102.              Sie möchten das Ressourcenmanagement innerhalb der Raiffeisenbank optimieren. Welche Möglichkeiten gibt es in diesem Bereich?",
+    "options": [
+      "a. Digitale Möglichkeiten werden genutzt",
+      "b. Tätigkeiten in der Bank werden gebündelt",
+      "c. Bildung von Personalunionen",
+      "d. Ein Kompetenzzentrum für spezialisierte Beratung",
+      "e. Seite 47 Management der Marfo"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "103.              Welche der angeführten Prozessebenen können Sie in der Raiffeisenbank finden?",
+    "options": [
+      "a. Ebene der Managementprozesse (Steuerungsprozesse)",
+      "b. Ebene der Abwicklungsprozesse (Zahlungsverkehr,…)",
+      "c. Ebene der Kernprozesse (Finanzierung, Veranlagung,…)",
+      "d. Ebene der Unterstützungsprozesse (Compliance, Geldwäsche, Revision,…)",
+      "Siete 24, Management der Marktfolge"
+    ],
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "104.              In der Kundensegmentierung hat folgendes Bedürfnis Priorität bzw. ist das Fundament:",
+    "options": [
+      "a. Bedürfnis nach einem persönlichen Ansprechpartner",
+      "b. Bedürfnis nach spezieller Beratung",
+      "c. Ausgezeichnetes Serviceempfinden beim Kunden",
+      "d. Convenience im Sinne von schnell, bequem, einfach",
+      "Seite 21 Mangement Markt"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "105.              Was ermöglichen die Mitarbeiter:innen im Vertrieb als Schlüsselressource?",
+    "options": [
+      "a. Sponsoring für Vereine",
+      "b. Erträge für die Bank erzielen",
+      "c. Arbeitsplätze in der Region schaffen",
+      "d. Wertangebot für unsere Kunden schaffen",
+      "Seite 87, Management Markt"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "106.              Marianne möchte sich nicht festlegen, ob sie zur Kundenberatung in die Filiale kommt, sie ihr Sparbuch online abschließen möchte oder andere Vertriebskanäle in der Bank nutzt. Wie wird die optimale kundenzentrierte Betreuung bezeichnet?",
+    "options": [
+      "a. Multikanal",
+      "b. Omnikanal",
+      "c. Mehrkanal",
+      "d. Einkanal"
+    ],
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "question": "a. Wie hoch ist die reine Gewinnabsicht der Bank",
+    "options": [
+      "b. Welche Kundenprobleme helfen wir zu lösen",
+      "c. Wie viele Lehrlinge werden wir in der Bank einstellen",
+      "d. Welchen Preis muss ein Produkt haben?",
+      "Siete 34 u 35 Management Markt"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "108.              Der Produktkatalog ist Teil des Werteangebotes. Folgende Aussagen sind richtig:",
+    "options": [
+      "a. Der Produktkatalog mit möglichst vielen Produkten um möglichst viele Kundenwünsche zu erfüllen",
+      "b. Der Produktkatalog soll möglichst straff und übersichtlich sein",
+      "c. Der Produktkatalog soll auf die wesentlichen Produktfelder abbilden (Sparen, Konto, Finanzierung,…)",
+      "d. Der Produktkatalog dient als Basis für die Kompetenzzuordnung",
+      "Seite 39 Management Markt"
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "a. Die Schalterzeiten in einer der Bankstellen sollen neu geregelt werden. Um mehr Gelegenheit für persönliche Beratung zu bieten, sollen die Zeiten bis Ende des kommenden Monats um 20 % reduziert werden. Der Mittwochnachmittag wird besonders schlecht angenommen.",
+    "options": [
+      "b. Der Kundenbereich einer der Bankstellen wurde seit vielen Jahren nicht adaptiert und soll nun modernisiert werden. Erste Gespräche der GL mit Funktionär:innen, benachbarten Banken und Kund:innen legen viele unterschiedliche Stoßrichtungen offen.",
+      "c. Die externe Revision hat sich angekündigt. Der Geschäftsleitung ist es besonders wichtig, dass in diesem Jahr alles glatt läuft. Es verbleiben noch wenige Wochen, um die notwendigen Vorbereitungen zu treffen.",
+      "d. Die neue Geschäftsleiterin regt an die Kundensegmentierung der Bank zu überdenken. Ein Expert:innenteam soll in den kommenden Monaten die Ausgangslage analysieren und ein Zielszenario entwickeln."
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "110.              Welche der folgenden Aussagen zum Thema Projektmanagement treffen zu?",
+    "options": [
+      "a. In der Phase der Projektplanung sollten möglichst Ressourcen eingespart werden, um diese danach für die Durchführungsphase zur Verfügung zu haben.",
+      "b. Die Meetingagenda für Abstimmungen mit der Projektleitung ist immer flexibel zu gestalten, um auf neue Entwicklungen eingehen zu können.",
+      "c. Für jedes Projekt muss es definierte Ziel(e) geben, das/die schriftlich festgehalten werden.",
+      "d. Die Zieldefinition obliegt alleine dem:r Projektautraggeber:in"
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "111.              Zentrale Aufgabe des Vertriebsmanagement ist die Balance zwischen",
+    "options": [
+      "a. Kundenorientierung",
+      "b. Kostendeckung",
+      "c. Produktivität",
+      "d. Planung Ziele"
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "112.              Das zentrale Element des Geschäftsmodells ist das Wertangebot, es geht um",
+    "options": [
+      "a.  alles richtig",
+      "b.",
+      "c.",
+      "d."
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "113.              Aus welchen wesentlichen Bestandteilen besteht die Vertriebssteuerung?",
+    "options": [
+      "a.     Ressourcensteuerung",
+      "b.     Aktivitätensteuerung",
+      "c.     Kostenplanung",
+      "d.     Erfolgsbilanz"
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "114.              Die Kundensegmentierung ist ein essenzieller Teil des Geschäftsmodells sie gibt Orientierung zu",
+    "options": [
+      "a.     Einteilung nach Altersklassen",
+      "b.     Einteilung nach Branchen und Einkommensstruktur",
+      "c.     Einteilung der Kunden in Teilsegemente",
+      "d.     Einteilung nach Bedürfnissen in der Vertriebssteuerung"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Liquidity Coverage Ratio",
+    "options": [
+      "Net Stable Funding Ratio",
+      "Internal Capital Adequacy Assessment Process",
+      "Income Producing Real Estate",
+      "Acquisition for Development and Construction",
+      "Capital Reguirements Regulation",
+      "Additional Tier 1",
+      "Bundesgesetzt über die Sanierung und Abwicklung von Banken",
+      "Common Equity Tier 1",
+      "Capital Reguirements Directive",
+      "European Banking Authority",
+      "Einlagensicherung Austria",
+      "European Securities and Markets Authority",
+      "Hypothekar- und Immobilienkreditgesetz",
+      "High Quality Liquid Assets",
+      "Internal Liquidity Adequacy Assessment Orocess",
+      "Kreditinstitute-Risikomanagement Verordnung",
+      "Less Significant Institution",
+      "Supervisory Resolution Mechanism"
+    ],
+    "correct_indices": []
+  }
+]
