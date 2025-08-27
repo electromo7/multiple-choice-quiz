@@ -1285,7 +1285,7 @@ const QUIZ_QUESTIONS = [
     ],
     "correct_indices": [
       0,
-      2,
+      1,
       3
     ]
   },
@@ -1331,7 +1331,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "100.            Nennen Sie die Charakteristika des operativen Prozessmanagements?",
+    "question": "100. Nennen Sie die Charakteristika des operativen Prozessmanagements?",
     "options": [
       "Ist kurzfristiger, dabei eingegrenzt im Wirkungsbereich und auf Teilziele ausgelegt",
       "Alle Teile des Unternehmens werden erfasst und beachtet",
@@ -1343,7 +1343,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "101.            Warum stellt das Ressourcenmanagement eine wesentliche Aufgabe einer Führungskraft dar und warum ist es so wichtig?",
+    "question": "101. Warum stellt das Ressourcenmanagement eine wesentliche Aufgabe einer Führungskraft dar und warum ist es so wichtig?",
     "options": [
       "Durch effektives Ressourcenmanagement benötigt es keine zusätzlichen SOLL-IST-Analysen mehr.",
       "Die Ressourcenplanung dient nicht dazu, Einblick in die Bandbreite anderer Teams und deren Auslastung/Verfügbarkeit zu gewinnen",
@@ -1356,7 +1356,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "102.            Sie möchten das Ressourcenmanagement innerhalb der Raiffeisenbank optimieren. Welche Möglichkeiten gibt es in diesem Bereich?",
+    "question": "102. Sie möchten das Ressourcenmanagement innerhalb der Raiffeisenbank optimieren. Welche Möglichkeiten gibt es in diesem Bereich?",
     "options": [
       "Digitale Möglichkeiten werden genutzt",
       "Tätigkeiten in der Bank werden gebündelt",
@@ -1371,7 +1371,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "103.            Welche der angeführten Prozessebenen können Sie in der Raiffeisenbank finden?",
+    "question": "103. Welche der angeführten Prozessebenen können Sie in der Raiffeisenbank finden?",
     "options": [
       "Ebene der Managementprozesse (Steuerungsprozesse)",
       "Ebene der Abwicklungsprozesse (Zahlungsverkehr,…)",
@@ -1385,7 +1385,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "104.            In der Kundensegmentierung hat folgendes Bedürfnis Priorität bzw. ist das Fundament:",
+    "question": "104. In der Kundensegmentierung hat folgendes Bedürfnis Priorität bzw. ist das Fundament:",
     "options": [
       "Bedürfnis nach einem persönlichen Ansprechpartner",
       "Bedürfnis nach spezieller Beratung",
@@ -1398,7 +1398,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "105.            Was ermöglichen die Mitarbeiter:innen im Vertrieb als Schlüsselressource?",
+    "question": "105. Was ermöglichen die Mitarbeiter:innen im Vertrieb als Schlüsselressource?",
     "options": [
       "Sponsoring für Vereine",
       "Erträge für die Bank erzielen",
@@ -1411,7 +1411,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "106.            Marianne möchte sich nicht festlegen, ob sie zur Kundenberatung in die Filiale kommt, sie ihr Sparbuch online abschließen möchte oder andere Vertriebskanäle in der Bank nutzt. Wie wird die optimale kundenzentrierte Betreuung bezeichnet?",
+    "question": "106. Marianne möchte sich nicht festlegen, ob sie zur Kundenberatung in die Filiale kommt, sie ihr Sparbuch online abschließen möchte oder andere Vertriebskanäle in der Bank nutzt. Wie wird die optimale kundenzentrierte Betreuung bezeichnet?",
     "options": [
       "Multikanal",
       "Omnikanal",
@@ -1423,7 +1423,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "107.                 Andreas ist Vertriebsleiter in der Raiffeisenbank. Er macht sich Gedanken zum Wertangebot. Welche Leitfragen wird er sich in diesem Zusammenhang stellen?",
+    "question": "107. Andreas ist Vertriebsleiter in der Raiffeisenbank. Er macht sich Gedanken zum Wertangebot. Welche Leitfragen wird er sich in diesem Zusammenhang stellen?",
     "options": [
       "Wie hoch ist die reine Gewinnabsicht der Bank",
       "Welche Kundenprobleme helfen wir zu lösen",
@@ -1436,7 +1436,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "108.            Der Produktkatalog ist Teil des Werteangebotes. Folgende Aussagen sind richtig:",
+    "question": "108. Der Produktkatalog ist Teil des Werteangebotes. Folgende Aussagen sind richtig:",
     "options": [
       "Der Produktkatalog mit möglichst vielen Produkten um möglichst viele Kundenwünsche zu erfüllen",
       "Der Produktkatalog soll möglichst straff und übersichtlich sein",
@@ -1449,7 +1449,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "109.                 Welche Vorhaben würden sie als Projekte durchführen?",
+    "question": "109. Welche Vorhaben würden sie als Projekte durchführen?",
     "options": [
       "Die Schalterzeiten in einer der Bankstellen sollen neu geregelt werden. Um mehr Gelegenheit für persönliche Beratung zu bieten, sollen die Zeiten bis Ende des kommenden Monats um 20 % reduziert werden. Der Mittwochnachmittag wird besonders schlecht angenommen.",
       "Der Kundenbereich einer der Bankstellen wurde seit vielen Jahren nicht adaptiert und soll nun modernisiert werden. Erste Gespräche der GL mit Funktionär:innen, benachbarten Banken und Kund:innen legen viele unterschiedliche Stoßrichtungen offen.",
@@ -1462,7 +1462,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "110.            Welche der folgenden Aussagen zum Thema Projektmanagement treffen zu?",
+    "question": "110. Welche der folgenden Aussagen zum Thema Projektmanagement treffen zu?",
     "options": [
       "In der Phase der Projektplanung sollten möglichst Ressourcen eingespart werden, um diese danach für die Durchführungsphase zur Verfügung zu haben.",
       "Die Meetingagenda für Abstimmungen mit der Projektleitung ist immer flexibel zu gestalten, um auf neue Entwicklungen eingehen zu können.",
@@ -1474,7 +1474,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "111.            Zentrale Aufgabe des Vertriebsmanagement ist die Balance zwischen",
+    "question": "111. Zentrale Aufgabe des Vertriebsmanagement ist die Balance zwischen",
     "options": [
       "Kundenorientierung",
       "Kostendeckung",
@@ -1487,7 +1487,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "113.            Aus welchen wesentlichen Bestandteilen besteht die Vertriebssteuerung?",
+    "question": "113. Aus welchen wesentlichen Bestandteilen besteht die Vertriebssteuerung?",
     "options": [
       "Ressourcensteuerung",
       "Aktivitätensteuerung",
@@ -1500,7 +1500,7 @@ const QUIZ_QUESTIONS = [
     ]
   },
   {
-    "question": "114.            Die Kundensegmentierung ist ein essenzieller Teil des Geschäftsmodells sie gibt Orientierung zu",
+    "question": "114. Die Kundensegmentierung ist ein essenzieller Teil des Geschäftsmodells sie gibt Orientierung zu",
     "options": [
       "Einteilung nach Altersklassen",
       "Einteilung nach Branchen und Einkommensstruktur",
