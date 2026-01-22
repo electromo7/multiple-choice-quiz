@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Was ist der Hauptgrund für die Schaffung einer besonderen Bankenaufsicht?",
+    "options": [
+      "a. Um die Gewinne der Banken zu maximieren",
+      "b. Um Vertrauens- und Liquiditätskrisen zu vermeiden und die Finanzmarktstabilität zu gewährleisten",
+      "c. Um die Zinsen für Kunden zu kontrollieren",
+      "d. Um den Wettbewerb zwischen Banken zu fördern"
+    ],
+    "correct_indices": [1]
+  },
+  {
+    "question": "Welche Aussagen zur Zusammenarbeit zwischen FMA, EZB und OeNB sind korrekt?",
+    "options": [
+      "a. Die FMA ist für kleinere Institute (LSIs) unmittelbar zuständig",
+      "b. Die EZB ist für bedeutende Kreditinstitute (SIs) ab 30 Mrd. € Bilanzsumme unmittelbar zuständig",
+      "c. Die OeNB unterstützt FMA und EZB bei Vor-Ort-Prüfungen",
+      "d. Die FMA ist weisungsgebunden gegenüber der EZB"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Welche Aufgaben hat die EBA (European Banking Authority)?",
+    "options": [
+      "a. Erlassen von Leitlinien (Guidelines)",
+      "b. Veröffentlichung von Questions & Answers zur praktischen Anwendung",
+      "c. Konzessionserteilung für alle europäischen Banken",
+      "d. Vorgabe von Szenarien für Stresstests"
+    ],
+    "correct_indices": [0, 1, 3]
+  },
+  {
+    "question": "Was bedeutet 'Single Rulebook' im Zusammenhang mit CRR und CRD?",
+    "options": [
+      "a. Ein einzelnes Buch mit allen Bankenregeln",
+      "b. Einheitliche Regeln für alle Mitgliedstaaten der EU",
+      "c. CRR ist eine EU-Verordnung und wirkt unmittelbar",
+      "d. CRD ist eine EU-Richtlinie und muss national umgesetzt werden"
+    ],
+    "correct_indices": [1, 2, 3]
+  },
+  {
+    "question": "Welche Rechtsformen sind für Banken in Österreich zulässig?",
+    "options": [
+      "a. Aktiengesellschaft (AG)",
+      "b. Einzelunternehmen",
+      "c. Genossenschaft",
+      "d. Gesellschaft mit beschränkter Haftung (GmbH)"
+    ],
+    "correct_indices": [0, 2, 3]
+  },
+  {
+    "question": "Welche Voraussetzungen muss die Geschäftsleitung einer Bank erfüllen?",
+    "options": [
+      "a. Mindestens 2 Geschäftsleiter (4-Augen-Prinzip)",
+      "b. Fachlich geeignet (fit) und persönlich zuverlässig (proper)",
+      "c. Dreijährige Leitungserfahrung",
+      "d. Mindestens ein Doktortitel in Betriebswirtschaft"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Wann fehlt die Propriety (persönliche Zuverlässigkeit) eines Geschäftsleiters?",
+    "options": [
+      "a. Bei Insolvenzverfahren über das Vermögen des Geschäftsleiters",
+      "b. Bei Freiheitsstrafe von mehr als 180 Tagsätzen",
+      "c. Bei Verurteilungen wegen Vermögensdelikten",
+      "d. Bei fehlender dreijähriger Berufserfahrung"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Bei welchen Schwellwerten müssen Veränderungen in der Eigentümerstruktur einer Bank angezeigt werden?",
+    "options": [
+      "a. 10% des Kapitals oder der Stimmrechte",
+      "b. 20% des Kapitals oder der Stimmrechte",
+      "c. 30% des Kapitals oder der Stimmrechte",
+      "d. 50% des Kapitals oder der Stimmrechte"
+    ],
+    "correct_indices": [1, 2, 3]
+  },
+  {
+    "question": "Wozu brauchen Banken Eigenmittel?",
+    "options": [
+      "a. Um unerwartete Verluste abdecken zu können",
+      "b. Um Einleger und Gläubiger zu schützen",
+      "c. Um die Widerstandsfähigkeit (Resilienz) zu stärken",
+      "d. Um Dividenden auszuschütten"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Unter welchen Voraussetzungen wird genossenschaftliches Geschäftsanteilkapital als hartes Kernkapital anerkannt?",
+    "options": [
+      "a. Unbefristet und voll eingezahlt",
+      "b. Nachrangig gegenüber anderen Gläubigern",
+      "c. Keine feste Verzinsung oder garantierte Dividende",
+      "d. Rückzahlungspflicht nach 5 Jahren"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Was ist die Sockelbetragslösung bei Genossenschaften?",
+    "options": [
+      "a. Ein in der Satzung definierter Mindestbetrag, unter den das Geschäftsanteilkapital nicht fallen darf",
+      "b. Bei Unterschreitung werden Abfindungsansprüche ausgesetzt",
+      "c. Sie dient der Stabilität des harten Kernkapitals",
+      "d. Sie ist im § 50a Abs. 2 Z 2 GenG geregelt"
+    ],
+    "correct_indices": [0, 1, 2, 3]
+  },
+  {
+    "question": "Wie setzen sich die Eigenmittel einer Bank zusammen?",
+    "options": [
+      "a. Hartes Kernkapital (CET1 - Common Equity Tier 1)",
+      "b. Zusätzliches Kernkapital (AT1 - Additional Tier 1)",
+      "c. Ergänzungskapital (Tier 2)",
+      "d. Fremdkapital von Kunden"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Welche Mindesteigenmittelquoten sind nach Art. 92 CRR einzuhalten?",
+    "options": [
+      "a. Harte Kernkapitalquote: 4,5%",
+      "b. Kernkapitalquote: 6%",
+      "c. Eigenmittelquote: 8%",
+      "d. Verschuldungsquote (Leverage Ratio): 3%"
+    ],
+    "correct_indices": [0, 1, 2, 3]
+  },
+  {
+    "question": "Was ist der SREP-Zuschlag und warum wird er erhoben?",
+    "options": [
+      "a. Ein zusätzlicher Kapitalpuffer basierend auf individuellen Risiken der Bank",
+      "b. Er wird von der FMA individuell festgelegt",
+      "c. Er deckt Risiken ab, die durch Art. 92 CRR nicht hinreichend erfasst sind",
+      "d. Bei Nichteinhaltung droht sofortige Insolvenz"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Welche Kapitalpufferanforderungen gibt es?",
+    "options": [
+      "a. Kapitalerhaltungspuffer (2,5% für alle Banken)",
+      "b. Antizyklischer Kapitalpuffer (0-2,5% je nach Marktlage)",
+      "c. Systemrelevanzpuffer (nur für systemrelevante Banken)",
+      "d. Liquiditätspuffer (5% für alle Institute)"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Welche Konsequenzen hat die Unterschreitung von Kapitalpuffern?",
+    "options": [
+      "a. Ausschüttung von Dividenden ist eingeschränkt",
+      "b. Zahlung von variablen Vergütungen ist eingeschränkt",
+      "c. Rückzahlung von Geschäftsanteilen ist eingeschränkt",
+      "d. Sofortiger Konzessionsentzug"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Was ist die Leverage Ratio (Verschuldungsquote) und warum ist sie wichtig?",
+    "options": [
+      "a. Sie misst das Verhältnis von Kernkapital zu Gesamtrisikoposition",
+      "b. Die Mindestquote beträgt 3%",
+      "c. Bei ihr spielen Risikogewichte keine Rolle",
+      "d. Sie wurde nach der Finanzkrise eingeführt, weil risikogewichtete Aktiva Risiken nicht immer korrekt abbilden"
+    ],
+    "correct_indices": [0, 1, 2, 3]
+  },
+  {
+    "question": "Was versteht man unter 'Corresponding Deduction Approach'?",
+    "options": [
+      "a. Beteiligungen müssen vom gleichen Kapitalbestandteil abgezogen werden, wie sie bei der anderen Bank angerechnet werden",
+      "b. Er verhindert die Doppelzählung von Kapital",
+      "c. Er ist relevant bei Beteiligungen an anderen Banken",
+      "d. Er wird nur bei internationalen Bankbeteiligungen angewendet"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Welche Bankgeschäfte benötigen eine Konzession nach BWG?",
+    "options": [
+      "a. Einlagengeschäft",
+      "b. Kreditgeschäft",
+      "c. Verwahrung und Verwaltung von Wertpapieren für andere",
+      "d. Vermittlung von Versicherungen"
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+    "question": "Was sind die Konsequenzen bei unbefugtem Betreiben von Bankgeschäften?",
+    "options": [
+      "a. Strafdrohungen bis zu € 5 Mio bei unbefugtem Kredit- und Einlagengeschäft",
+      "b. Kein Anspruch auf vereinbarte Zinsen, Provisionen und Vergütungen",
+      "c. Eintrag ins Firmenbuch ist nicht möglich",
+      "d. Automatische Umwandlung in eine regulierte Bank"
+    ],
+    "correct_indices": [0, 1, 2]
+  }
+]

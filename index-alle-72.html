@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Alle Fragen (72 gesamt)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Multiple Choice Quiz - Komplett</h1>
+            <p class="subtitle">72 Fragen: RBM3 (40) + RBM4 (12) + Bankenaufsichtsrecht (20)</p>
+        </header>
+
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h2>Quiz starten</h2>
+            <div class="input-group">
+                <label for="question-count">Wie viele Fragen möchten Sie beantworten?</label>
+                <input type="number" id="question-count" min="1" max="72" value="20">
+            </div>
+            <button id="start-quiz-btn" class="btn primary">Quiz starten</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <div class="question-counter">
+                    <span id="current-question">1</span> von <span id="total-questions">20</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+            </div>
+
+            <div class="quiz-controls">
+                <button id="submit-answer-btn" class="btn primary" disabled>Antwort abgeben</button>
+            </div>
+
+            <div id="answer-feedback" class="feedback hidden">
+                <div class="feedback-content">
+                    <div id="feedback-text"></div>
+                    <button id="next-question-btn" class="btn secondary">Nächste Frage</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <h2>Quiz Ergebnis</h2>
+            <div class="results-summary">
+                <div class="score-display">
+                    <div class="score-circle" id="score-circle">
+                        <span id="percentage">0%</span>
+                    </div>
+                    <div class="score-details">
+                        <p><span id="correct-count">0</span> von <span id="total-count">0</span> Fragen richtig</p>
+                        <p class="result-status" id="result-status"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="wrong-answers-section" class="wrong-answers">
+                <h3>Falsche Antworten:</h3>
+                <div id="wrong-answers-list"></div>
+            </div>
+
+            <div class="results-controls">
+                <button id="restart-quiz-btn" class="btn primary">Neues Quiz starten</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript mit allen 72 Fragen -->
+    <script src="script-alle-72.js"></script>
+</body>
+</html>
