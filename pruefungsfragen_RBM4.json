@@ -1,0 +1,122 @@
+[
+  {
+    "question": "1. Unter welchen Voraussetzungen kann eine Generalversammlung als Delegiertenversammlung abgehalten werden?",
+    "options": [
+      "a. Die Genossenschaft muss zwischen 100 und 400 Mitglieder haben.",
+      "b. Die Genossenschaft muss mindestens 500 Mitglieder haben und die Satzung muss die Delegiertenversammlung ab 500 Mitglieder vorsehen.",
+      "c. Der Vorstand hat eine Sprengeleinteilung festzulegen.",
+      "d. Die Mitglieder sind einem bestimmten Sprengel zuzuordnen."
+    ],
+    "correct_indices": [1, 2, 3]
+  },
+  {
+    "question": "2. In welchem/-n Fall/Fällen spricht man von gemischter Gesamtprokura: Der Gesamtprokurist der Raiffeisenbank zeichnet in Bankgeschäften gemeinsam …",
+    "options": [
+      "a. mit einem zweiten Prokuristen.",
+      "b. mit einem der Geschäftsleiter.",
+      "c. mit einem ehrenamtlichen Vorstandsmitglied.",
+      "d. mit einem sonstigen Handlungsbevollmächtigten.",
+      "e. mit einem hauptberuflichen Vorstandsmitglied."
+    ],
+    "correct_indices": [1, 4]
+  },
+  {
+    "question": "3. Die Eintragung der in der letzten GV neu gewählten und die Löschung der ausgeschiedenen Vorstandsmitglieder sind durch wen zu beantragen?",
+    "options": [
+      "a. Den neu gewählten Vorstand.",
+      "b. Den bisherigen Vorstand.",
+      "c. Die Geschäftsleiter."
+    ],
+    "correct_indices": [0]
+  },
+  {
+    "question": "4. Die Satzungsänderung wird rechtswirksam durch …",
+    "options": [
+      "a. eine Beschlussfassung in der Generalversammlung.",
+      "b. die Eintragung im Firmenbuch."
+    ],
+    "correct_indices": [1]
+  },
+  {
+    "question": "5. (nicht abgebildet)",
+    "options": [],
+    "correct_indices": []
+  },
+  {
+    "question": "6. Welche Schritte sind für eine Genossenschaftsgründung erforderlich?",
+    "options": [
+      "a. mindestens 2 Personen (Proponenten).",
+      "b. hauptberufliche Mitarbeiter.",
+      "c. ausgefertigte Satzung mit Geschäftszweck.",
+      "d. Wahl eines Aufsichtsrates."
+    ],
+    "correct_indices": [0, 2]
+  },
+  {
+    "question": "7. Welche rechtlichen Voraussetzungen sind für den Erwerb einer Mitgliedschaft erforderlich? (unter Voraussetzung eines ehrenamtlichen Vorstandes)",
+    "options": [
+      "a. Beschluss des Vorstandes.",
+      "b. Beschluss des Aufsichtsrates.",
+      "c. schriftliche Beitrittserklärung des Mitgliedes.",
+      "d. geordnete Vermögensverhältnisse."
+    ],
+    "correct_indices": [0, 2]
+  },
+  {
+    "question": "8. Welche Aufgaben bekommt das Organ \"Vorstand\" nach einer Umstellung auf den hauptberuflichen Vorstand zusätzlich dazu?",
+    "options": [
+      "a. Führung der Bankgeschäfte.",
+      "b. Einberufung der Generalversammlung.",
+      "c. Führung des Mitgliederregisters.",
+      "d. Aufnahme und Ausschluss von Mitgliedern."
+    ],
+    "correct_indices": [0]
+  },
+  {
+    "question": "9. Für die Einberufung einer außerordentlichen Generalversammlung sind folgende Punkte zu beachten.",
+    "options": [
+      "a. Die außerordentliche Generalversammlung muss innerhalb der ersten 8 Monate stattfinden.",
+      "b. In dieser außerordentlichen Generalversammlung ist über den Jahresabschluss zu beschließen.",
+      "c. Der Vorstand kann ebenso wie die Generalversammlung einen Beschluss zur Einberufung einer außerordentlichen Generalversammlung fassen.",
+      "d. Die Einberufung ist notwendig, wenn die Hälfte der Geschäftsanteile verbraucht ist."
+    ],
+    "correct_indices": [2, 3]
+  },
+  {
+    "question": "10. Die Genossenschaft unterscheidet sich von der AG durch:",
+    "options": [
+      "a. die Weisungsunterworfenheit des Vorstandes.",
+      "b. dass es sich um eine Publikumsgesellschaft handelt.",
+      "c. den einfachen Eintritt und Austritt von Mitgliedern.",
+      "d. das Fehlen eines starren Nennkapitals."
+    ],
+    "correct_indices": [0, 2, 3]
+  },
+  {
+    "question": "11. Bei der Durchführung der Revision ist der/die Revisor:in …",
+    "options": [
+      "a. unabhängig und weisungsfrei.",
+      "b. er hat Weisungen seiner Vorgesetzten hinsichtlich seiner Revisionsfeststellung zu beachten."
+    ],
+    "correct_indices": [0]
+  },
+  {
+    "question": "12. Die standardmäßige gesetzliche Prüfung einer RB umfasst jedenfalls folgende Prüfungsbereiche:",
+    "options": [
+      "a. Abschlussprüfung laut UGB und BWG (formelle Prüfung).",
+      "b. Bankprüfung laut BWG.",
+      "c. Gebarungsprüfung (materielle Revision) laut GenRevG.",
+      "d. Sonderprüfungen im Ermessen des Prüfers."
+    ],
+    "correct_indices": [0, 1, 2]
+  },
+  {
+  "question": "5. Die Wahl der Vorstandsmitglieder wird rechtswirksam durch ...",
+  "options": [
+    "a. die Beschlussfassung in der Generalversammlung und Annahme der Wahl.",
+    "b. die Eintragung im Firmenbuch."
+  ],
+  "correct_indices": [0]
+}
+
+]

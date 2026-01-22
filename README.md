@@ -4,7 +4,7 @@ Eine moderne Web-Applikation für Multiple Choice Tests mit sofortigem Feedback 
 
 ## 🎯 Features
 
-- **Flexible Fragenanzahl**: Wählen Sie zwischen 1 und 108 Fragen
+- **Flexible Fragenanzahl**: Wählen Sie die gewünschte Anzahl an Fragen
 - **Zufällige Auswahl**: Jeder Quiz-Durchlauf verwendet eine zufällige Auswahl der Fragen
 - **Sofortiges Feedback**: Nach jeder Frage sehen Sie sofort, ob die Antwort richtig oder falsch war
 - **Bestehensgrenze**: 60% der Fragen müssen richtig beantwortet werden
@@ -13,7 +13,9 @@ Eine moderne Web-Applikation für Multiple Choice Tests mit sofortigem Feedback 
 
 ## 🚀 Live Demo
 
-Die Applikation ist als GitHub Page verfügbar: [Quiz starten](https://ihr-username.github.io/ihr-repository-name/)
+Die Applikation ist als GitHub Page verfügbar:
+- **[RBM3 & RBM4 Quiz (52 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-rbm3-rbm4.html)** ⭐ NEU!
+- [Original Quiz (108 Fragen)](https://electromo7.github.io/multiple-choice-quiz/)
 
 ## 💻 Lokale Nutzung
 
