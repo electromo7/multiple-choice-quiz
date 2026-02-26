@@ -7,7 +7,9 @@
       "c. Um die Zinsen für Kunden zu kontrollieren",
       "d. Um den Wettbewerb zwischen Banken zu fördern"
     ],
-    "correct_indices": [1]
+    "correct_indices": [
+      1
+    ]
   },
   {
     "question": "Welche Aussagen zur Zusammenarbeit zwischen FMA, EZB und OeNB sind korrekt?",
@@ -17,7 +19,11 @@
       "c. Die OeNB unterstützt FMA und EZB bei Vor-Ort-Prüfungen",
       "d. Die FMA ist weisungsgebunden gegenüber der EZB"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Welche Aufgaben hat die EBA (European Banking Authority)?",
@@ -27,7 +33,11 @@
       "c. Konzessionserteilung für alle europäischen Banken",
       "d. Vorgabe von Szenarien für Stresstests"
     ],
-    "correct_indices": [0, 1, 3]
+    "correct_indices": [
+      0,
+      1,
+      3
+    ]
   },
   {
     "question": "Was bedeutet 'Single Rulebook' im Zusammenhang mit CRR und CRD?",
@@ -37,7 +47,11 @@
       "c. CRR ist eine EU-Verordnung und wirkt unmittelbar",
       "d. CRD ist eine EU-Richtlinie und muss national umgesetzt werden"
     ],
-    "correct_indices": [1, 2, 3]
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "question": "Welche Rechtsformen sind für Banken in Österreich zulässig?",
@@ -47,7 +61,11 @@
       "c. Genossenschaft",
       "d. Gesellschaft mit beschränkter Haftung (GmbH)"
     ],
-    "correct_indices": [0, 2, 3]
+    "correct_indices": [
+      0,
+      2,
+      3
+    ]
   },
   {
     "question": "Welche Voraussetzungen muss die Geschäftsleitung einer Bank erfüllen?",
@@ -57,7 +75,11 @@
       "c. Dreijährige Leitungserfahrung",
       "d. Mindestens ein Doktortitel in Betriebswirtschaft"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Wann fehlt die Propriety (persönliche Zuverlässigkeit) eines Geschäftsleiters?",
@@ -67,7 +89,11 @@
       "c. Bei Verurteilungen wegen Vermögensdelikten",
       "d. Bei fehlender dreijähriger Berufserfahrung"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Bei welchen Schwellwerten müssen Veränderungen in der Eigentümerstruktur einer Bank angezeigt werden?",
@@ -77,7 +103,11 @@
       "c. 30% des Kapitals oder der Stimmrechte",
       "d. 50% des Kapitals oder der Stimmrechte"
     ],
-    "correct_indices": [1, 2, 3]
+    "correct_indices": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "question": "Wozu brauchen Banken Eigenmittel?",
@@ -87,7 +117,11 @@
       "c. Um die Widerstandsfähigkeit (Resilienz) zu stärken",
       "d. Um Dividenden auszuschütten"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Unter welchen Voraussetzungen wird genossenschaftliches Geschäftsanteilkapital als hartes Kernkapital anerkannt?",
@@ -97,7 +131,11 @@
       "c. Keine feste Verzinsung oder garantierte Dividende",
       "d. Rückzahlungspflicht nach 5 Jahren"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Was ist die Sockelbetragslösung bei Genossenschaften?",
@@ -107,7 +145,12 @@
       "c. Sie dient der Stabilität des harten Kernkapitals",
       "d. Sie ist im § 50a Abs. 2 Z 2 GenG geregelt"
     ],
-    "correct_indices": [0, 1, 2, 3]
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
   },
   {
     "question": "Wie setzen sich die Eigenmittel einer Bank zusammen?",
@@ -117,7 +160,11 @@
       "c. Ergänzungskapital (Tier 2)",
       "d. Fremdkapital von Kunden"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Welche Mindesteigenmittelquoten sind nach Art. 92 CRR einzuhalten?",
@@ -127,7 +174,12 @@
       "c. Eigenmittelquote: 8%",
       "d. Verschuldungsquote (Leverage Ratio): 3%"
     ],
-    "correct_indices": [0, 1, 2, 3]
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
   },
   {
     "question": "Was ist der SREP-Zuschlag und warum wird er erhoben?",
@@ -137,7 +189,11 @@
       "c. Er deckt Risiken ab, die durch Art. 92 CRR nicht hinreichend erfasst sind",
       "d. Bei Nichteinhaltung droht sofortige Insolvenz"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Welche Kapitalpufferanforderungen gibt es?",
@@ -147,7 +203,11 @@
       "c. Systemrelevanzpuffer (nur für systemrelevante Banken)",
       "d. Liquiditätspuffer (5% für alle Institute)"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Welche Konsequenzen hat die Unterschreitung von Kapitalpuffern?",
@@ -157,7 +217,11 @@
       "c. Rückzahlung von Geschäftsanteilen ist eingeschränkt",
       "d. Sofortiger Konzessionsentzug"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Was ist die Leverage Ratio (Verschuldungsquote) und warum ist sie wichtig?",
@@ -167,7 +231,12 @@
       "c. Bei ihr spielen Risikogewichte keine Rolle",
       "d. Sie wurde nach der Finanzkrise eingeführt, weil risikogewichtete Aktiva Risiken nicht immer korrekt abbilden"
     ],
-    "correct_indices": [0, 1, 2, 3]
+    "correct_indices": [
+      0,
+      1,
+      2,
+      3
+    ]
   },
   {
     "question": "Was versteht man unter 'Corresponding Deduction Approach'?",
@@ -177,7 +246,11 @@
       "c. Er ist relevant bei Beteiligungen an anderen Banken",
       "d. Er wird nur bei internationalen Bankbeteiligungen angewendet"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Welche Bankgeschäfte benötigen eine Konzession nach BWG?",
@@ -187,7 +260,11 @@
       "c. Verwahrung und Verwaltung von Wertpapieren für andere",
       "d. Vermittlung von Versicherungen"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
   },
   {
     "question": "Was sind die Konsequenzen bei unbefugtem Betreiben von Bankgeschäften?",
@@ -197,6 +274,264 @@
       "c. Eintrag ins Firmenbuch ist nicht möglich",
       "d. Automatische Umwandlung in eine regulierte Bank"
     ],
-    "correct_indices": [0, 1, 2]
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Welche der folgenden Anzeigetatbestände sind nach § 73 BWG für ein Kreditinstitut von Relevanz?",
+    "options": [
+      "a. Jede Änderung in der Person der Geschäftsleiter;",
+      "b. Änderungen in der Person des/der Verantwortlichen für die Interne Revision;",
+      "c. Jede Adressänderung von einzelnen Filialen;",
+      "d. Jede Änderung der qualifizierten Beteiligungen an anderen Kreditinstituten."
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Welche der folgenden Bestandteile können gemäß CRR dem Kernkapital (Tier 1) zugerechnet werden?",
+    "options": [
+      "a. Fonds für allgemeine Bankrisiken;",
+      "b. Stille Reserven;",
+      "c. Immaterielle Vermögensgegenstände;",
+      "d. Haftrücklage."
+    ],
+    "correct_indices": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "Welche der folgenden Geschäfte bedürfen bei einem Kreditinstitut aufsichtsrechtlich der Zustimmung des Aufsichtsrats?",
+    "options": [
+      "a. Aufstellung des jährlichen Revisionsplans;",
+      "b. Jeder gemäß CRR ermittelte Großkredit ab EUR 500.000,–;",
+      "c. Organgeschaften;",
+      "d. Kriterien für die Zuordnung der Positionen zum Handelsbuch."
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Für welche der folgenden Unternehmen gilt gemäß Art. 89 CRR eine Begrenzung (bzw höhere Eigenmittelerfordernisse bei Überschreitung) für den Buchwert qualifizierter Beteiligungen iHv 15 % (bzw 60 % für die Summe aller Beteiligungen) der anrechenbaren Eigenmittel des Kreditinstituts?",
+    "options": [
+      "a. Gesellschaften, die Vorsorgewohnungen entwickeln;",
+      "b. Eine Seilbahnbetriebsgesellschaft;",
+      "c. Leasinggesellschaften;",
+      "d. Kapitalanlagegesellschaften."
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Welche Anforderungen stellen die EBA-Leitlinien zum ESG-Risikomanagement an die Transitionspläne (Übergangspläne) von Finanzinstituten?",
+    "options": [
+      "a. Finanzinstitute müssen jährlich einen detaillierten Bericht über alle ESG-Risiken veröffentlichen.",
+      "b. Finanzinstitute müssen Transitionspläne erstellen, die spezifische Zeitpläne, quantifizierbare Zwischenziele und Meilensteine enthalten, um die finanziellen Risiken aus ESG-Faktoren zu überwachen und zu bewältigen.",
+      "c. Finanzinstitute müssen ihre gesamte Geschäftsleitung durch ESG-Experten ersetzen und alle Investitionen in fossile Brennstoffe sofort beenden.",
+      "d. Finanzinstitute müssen lediglich eine kurze Erklärung abgeben, dass sie ESG-Risiken berücksichtigen, ohne konkrete Maßnahmen oder Ziele festzulegen."
+    ],
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "question": "Was ist bei Organgeschäften zu beachten, wenn ein einstimmiger Beschluss der Geschäftsleiter und die Zustimmung des Aufsichtsrates oder des sonst nach Gesetz oder Satzung zuständigen Aufsichtsorgans zum Zeitpunkt des Abschlusses noch nicht vorliegen?",
+    "options": [
+      "a. Das Geschäft ist nichtig.",
+      "b. Es ist ein nachträglicher, einstimmiger Beschluss der Geschäftsleiter und eine Zustimmung des Aufsichtsrates erforderlich.",
+      "c. Gewährte Kredite und Vorschüsse sind unter allen Umständen unverzüglich zurückzuzahlen, da ein nachträglicher Beschluss nicht zulässig ist.",
+      "d. Es ist ein Sonderbeschluss der Hauptversammlung notwendig."
+    ],
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "question": "Kreditinstitute haben für die Aufgaben der Internen Revision eine eigene Organisationseinheit einzurichten. Dies gilt jedoch nicht für Kreditinstitute:",
+    "options": [
+      "a. deren Bilanzsumme 300 Millionen Euro nicht übersteigt;",
+      "b. deren Mitarbeiterstand im Jahresdurchschnitt 300 vollbeschäftigte Mitarbeiter nicht übersteigt;",
+      "c. deren Mitarbeiterstand im Jahresdurchschnitt 100 vollbeschäftigte Mitarbeiter nicht übersteigt;",
+      "d. deren Bilanzsumme eine Milliarde Euro nicht übersteigt und die Mitglied einer Kreditinstitutsgruppe sind oder einem Zentralinstitut angeschlossen sind."
+    ],
+    "correct_indices": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "Das Ergebnis der Prüfung des Bankprüfers ist den zuständigen Behörden zeitgerecht zu übermitteln; welche Frist gibt § 44 BWG für die Einreichung der geprüften Jahresabschlüsse bei der FMA/OeNB vor?",
+    "options": [
+      "a. Der geprüfte Jahresabschluss ist längstens innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres der FMA und der Oesterreichischen Nationalbank vorzulegen.",
+      "b. Der geprüfte Jahresabschluss ist längstens innerhalb von acht Monaten nach Abschluss des Geschäftsjahres der FMA und der Oesterreichischen Nationalbank vorzulegen.",
+      "c. Der geprüfte Jahresabschluss ist längstens innerhalb von neun Monaten nach Abschluss des Geschäftsjahres der FMA und der Oesterreichischen Nationalbank vorzulegen.",
+      "d. Der geprüfte Jahresabschluss ist längstens innerhalb von vier Monaten nach Abschluss des Geschäftsjahres der FMA und der Oesterreichischen Nationalbank vorzulegen."
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "Unter dem Operationellen Risiko versteht man:",
+    "options": [
+      "a. Das Risiko, das aus Verbriefungstransaktionen erwächst, bei denen das Kreditinstitut als Investor, Originator oder Sponsor auftritt;",
+      "b. Das spezifische und allgemeine Positionsrisiko in zinsbezogenen Instrumenten;",
+      "c. Das Risiko von Verlusten, die durch Unangemessenheit oder Versagen von internen Verfahren, Menschen und Systemen oder durch externe Ereignisse verursacht werden, einschließlich des Rechtsrisikos;",
+      "d. Das Risiko, dass die vom Kreditinstitut eingesetzten bankaufsichtlich anerkannten kreditrisikomindernden Techniken weniger wirksam sind als erwartet."
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "Welche der folgenden Risiken müssen gemäß CRR mit Eigenmitteln unterlegt werden („Säule 1“)?",
+    "options": [
+      "a. Risikoarten des Handelsbuchs;",
+      "b. Kreditrisiko;",
+      "c. Operationelles Risiko;",
+      "d. Liquiditätsrisiko."
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Wer unterliegt den Fit & Proper Anforderungen gemäß EBA Leitlinien und FMA Rundschreiben?",
+    "options": [
+      "a. Mitglieder der Geschäftsleitung",
+      "b. Mitglieder des Aufsichtsrats",
+      "c. Inhaber von Schlüsselfunktionen",
+      "d. Alle Mitarbeiter"
+    ],
+    "correct_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "An wen muss die Interne Revision regelmäßig Bericht erstatten?",
+    "options": [
+      "a. Quartalsweise dem Vorsitzenden des Aufsichtsrates sowie dem Prüfungsausschuss;",
+      "b. An die Aufsichtsräte und an das ressortzuständige Mitglied der Geschäftsleitung;",
+      "c. An alle Geschäftsleiter;",
+      "d. An den Risikoausschuss des Aufsichtsrates und an die verantwortlichen Mitglieder der Geschäftsleitung."
+    ],
+    "correct_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "Welche der folgenden Umstände zählen – unter anderem – zu den Konzessionsvoraussetzungen nach § 5 BWG?",
+    "options": [
+      "a. Das Anfangskapital oder die Anfangsdotation beträgt 1 Million Euro und steht den Geschäftsleitern unbeschränkt und ohne Belastung im Inland zur freien Verfügung.",
+      "b. Das Kreditinstitut muss in der Rechtsform einer Kapitalgesellschaft, einer Genossenschaft oder einer Sparkasse geführt werden.",
+      "c. Das Anfangskapital oder die Anfangsdotation beträgt 5 Millionen Euro und steht den Geschäftsleitern unbeschränkt und ohne Belastung im Inland zur freien Verfügung.",
+      "d. Der Sitz oder die Hauptverwaltung liegt im Inland."
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Was gilt für Institute, die Bankgeschäfte ohne die notwendige Konzession betreiben?",
+    "options": [
+      "a. Das Institut hat auf alle mit diesen Geschäften verbundenen Vergütungen, wie insbesondere Zinsen und Provisionen, keinen Anspruch.",
+      "b. Das Institut hat mit einem verwaltungsstrafrechtlichen Verfahren seitens der FMA zu rechnen.",
+      "c. Die fehlende Konzession zieht die Rechtsunwirksamkeit des Geschäfts nach sich.",
+      "d. Keine Konsequenzen; wer Bankgeschäfte ohne die erforderliche Berechtigung betreibt, kann sich im Notfall immer auf den § 1 Abs 5 BWG (Einwand von Spiel und Wette) berufen."
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Kreditinstitute und Kreditinstitutsgruppen haben das besondere bankgeschäftliche Risiko von Großkrediten jederzeit angemessen zu begrenzen. Welche Vorgaben sind gemäß § 28b BWG und Teil 4 CRR für Großkredite zu beachten?",
+    "options": [
+      "a. Ein Großkredit liegt vor, wenn ein solcher bei einem Kunden oder bei einer Gruppe verbundener Kunden 10 % des Kernkapitals des Kreditinstitutes oder des konsolidierten Kernkapitals der Kreditinstitutsgruppe erreicht.",
+      "b. Bei der Ermittlung von Großkrediten sind anzusetzen: Aktivposten, außerbilanzmäßige Geschäfte, Derivate und Handelsbuchpositionen.",
+      "c. Bei der Ermittlung von Großkrediten sind anzusetzen: Aktivposten, außerbilanzmäßige Geschäfte, Derivate und Verbindlichkeiten.",
+      "d. Ein Großkredit liegt ab mindestens 350.000 Euro vor."
+    ],
+    "correct_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Zur Bekämpfung von Geldwäscherei und Terrorismusfinanzierung nach FM-GwG haben Kreditinstitute die Identität des Kunden festzustellen, und zwar:",
+    "options": [
+      "a. Wenn der Betrag vor Beginn der Transaktion nicht bekannt ist, so ist die Identität dann festzustellen, sobald der Betrag bekannt ist und festgestellt wird, dass er mindestens 10.000 Euro oder Euro-Gegenwert beträgt.",
+      "b. Bei Zweifeln an der Echtheit oder der Angemessenheit der Kundenidentifikationsdaten;",
+      "c. Vor Begründung einer dauernden Geschäftsbeziehung;",
+      "d. Vor Durchführung von allen nicht in den Rahmen einer dauernden Geschäftsbeziehung fallenden Transaktionen, deren Betrag sich auf mindestens 10.000 Euro oder Euro-Gegenwert beläuft."
+    ],
+    "correct_indices": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Wie ist bei einem Verdacht nach § 41 BWG (Geldwäscherei und Terrorismusbekämpfung) vorzugehen?",
+    "options": [
+      "a. Bei einem Verdachtsmoment haben die Kredit- und Finanzinstitute die Geldwäsche-Meldestelle hiervon unverzüglich in Kenntnis zu setzen und bis zur Klärung des Sachverhalts jede weitere Abwicklung der Transaktion zu unterlassen.",
+      "b. Bei einem Verdachtsmoment haben die Kredit- und Finanzinstitute die Behörde hiervon spätestens nach Ablauf von 24 Stunden in Kenntnis zu setzen und bis zur Klärung des Sachverhalts jede weitere Abwicklung der Transaktion zu unterlassen.",
+      "c. Bei einem Verdachtsmoment haben die Kredit- und Finanzinstitute die Behörde hiervon spätestens bis zum Ende des nächsten Bankarbeitstages in Kenntnis zu setzen und bis zur Klärung des Sachverhalts jede weitere Abwicklung der Transaktion zu unterlassen.",
+      "d. Keine der Antworten a) bis c); die Konten des Kunden sind unverzüglich einzufrieren, jeglicher Geldverkehr ist einzustellen."
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "Wann und von wem ist ein Vergütungsausschuss gemäß § 39c BWG einzurichten?",
+    "options": [
+      "a. In Kreditinstituten jedweder Rechtsform, deren Bilanzsumme 500 Millionen Euro übersteigt und die übertragbare Wertpapiere ausgegeben haben, ist vom Aufsichtsrat ein Vergütungsausschuss einzurichten.",
+      "b. In Kreditinstituten jedweder Rechtsform, deren Bilanzsumme fünf Milliarden Euro übersteigt, ist ein Vergütungsausschuss einzurichten, bestehend aus mindestens einem Geschäftsleiter und dem Vorsitzenden des Aufsichtsrats.",
+      "c. In Kreditinstituten jedweder Rechtsform, deren Bilanzsumme fünf Milliarden Euro übersteigt, ist ein Vergütungsausschuss einzurichten, bestehend aus der gesamten Geschäftsleitung und den Arbeitnehmervertretern.",
+      "d. In Kreditinstituten jedweder Rechtsform, deren Bilanzsumme fünf Milliarden Euro übersteigt, ist vom Aufsichtsrat ein Vergütungsausschuss einzurichten, wobei dem Vergütungsausschuss ein Vergütungsexperte angehören muss oder hinzugezogen werden muss."
+    ],
+    "correct_indices": [
+      3
+    ]
+  },
+  {
+    "question": "Welche Anforderungen stellt DORA an das Leitungsorgan von Finanzunternehmen in Bezug auf das IKT-Risikomanagement?",
+    "options": [
+      "a. Das Leitungsorgan muss einen externen Berater für IKT-Risiken bestellen, der monatlich Bericht erstattet.",
+      "b. Das Leitungsorgan muss einen IKT-Risikomanagementrahmen definieren, genehmigen und überwachen, sowie regelmäßige Schulungen zu ICT-Risiken erhalten.",
+      "c. Das Leitungsorgan muss aus mindestens drei IT-Experten bestehen, die jeweils mehr als 10 Jahre Erfahrung im Finanzsektor haben.",
+      "d. Das Leitungsorgan muss vierteljährlich öffentliche Berichte über alle IKT-Vorfälle veröffentlichen und persönlich für jede Sicherheitslücke haften."
+    ],
+    "correct_indices": [
+      1
+    ]
+  },
+  {
+    "question": "Welche der folgenden Antwortmöglichkeiten stellen Unterschiede zwischen Basel III und Basel IV dar?",
+    "options": [
+      "a. Basel III zielt auf die Selbstregulierung von Banken ab, im Sinne des „Prudent Person Prinzips“. Es stellt den Beginn einer Deregulierungsphase im Bankensektor dar.",
+      "b. Durch die Anwendung von Basel IV werden die Prinzipien nach Basel III zur Gänze aufgehoben.",
+      "c. Basel IV wurde innerhalb der EU durch die Eigenkapitalrichtlinie (CRD III) umgesetzt.",
+      "d. Das Schwergewicht der Änderungen durch Basel IV bezieht sich auf Änderungen bei der Berechnung der RWA bzw. auf die Höhe der Eigenmittelerfordernisse."
+    ],
+    "correct_indices": [
+      3
+    ]
   }
 ]
