@@ -1312,6 +1312,16 @@ class MultipleChoiceQuiz {
                 const anyChecked = document.querySelectorAll('input[name="answer"]:checked').length > 0;
                 document.getElementById('submit-answer-btn').disabled = !anyChecked;
             });
+
+            optionDiv.addEventListener('click', (event) => {
+                if (event.target === checkbox || checkbox.disabled) {
+                    return;
+                }
+
+                event.preventDefault();
+                checkbox.checked = !checkbox.checked;
+                checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+            });
         });
         document.getElementById('answer-feedback').classList.add('hidden');
         document.getElementById('submit-answer-btn').disabled = true;
