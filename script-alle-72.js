@@ -1264,6 +1264,20 @@ class MultipleChoiceQuiz {
         return shuffled.slice(0, count);
     }
 
+    shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    formatOptionText(option, displayIndex = null) {
+        const text = option.replace(/^[a-z]\.\s*/i, '');
+        return displayIndex === null ? text : `${displayIndex + 1}. ${text}`;
+    }
+
     displayQuestion() {
         const question = this.selectedQuestions[this.currentQuestionIndex];
         const progress = ((this.currentQuestionIndex + 1) / this.totalQuestions) * 100;
@@ -1272,7 +1286,15 @@ class MultipleChoiceQuiz {
         document.getElementById('question-text').textContent = question.question;
         const optionsContainer = document.getElementById('options-container');
         optionsContainer.innerHTML = '';
-        question.options.forEach((option, index) => {
+        const shuffledOptions = this.shuffleArray(
+            question.options.map((option, originalIndex) => ({
+                text: option,
+                originalIndex
+            }))
+        );
+        this.currentQuestionMapping = {};
+        shuffledOptions.forEach((option, index) => {
+            this.currentQuestionMapping[index] = option.originalIndex;
             const optionDiv = document.createElement('div');
             optionDiv.className = 'option';
             const checkbox = document.createElement('input');
@@ -1282,7 +1304,7 @@ class MultipleChoiceQuiz {
             checkbox.value = index;
             const label = document.createElement('label');
             label.htmlFor = `option-${index}`;
-            label.textContent = option;
+            label.textContent = this.formatOptionText(option.text, index);
             optionDiv.appendChild(checkbox);
             optionDiv.appendChild(label);
             optionsContainer.appendChild(optionDiv);
@@ -1297,10 +1319,11 @@ class MultipleChoiceQuiz {
 
     checkAnswer() {
         const question = this.selectedQuestions[this.currentQuestionIndex];
-        const selectedOptions = Array.from(document.querySelectorAll('input[name="answer"]:checked'))
+        const selectedShuffledOptions = Array.from(document.querySelectorAll('input[name="answer"]:checked'))
             .map(input => parseInt(input.value));
+        const selectedOptions = selectedShuffledOptions.map(index => this.currentQuestionMapping[index]);
         const correctAnswers = question.correct_indices;
-        const isCorrect = this.arraysEqual(selectedOptions.sort(), correctAnswers.sort());
+        const isCorrect = this.arraysEqual([...selectedOptions].sort(), [...correctAnswers].sort());
         this.userAnswers.push({
             question: question,
             userAnswers: selectedOptions,
@@ -1310,7 +1333,7 @@ class MultipleChoiceQuiz {
         if (isCorrect) {
             this.score++;
         }
-        this.showFeedback(isCorrect, correctAnswers, selectedOptions);
+        this.showFeedback(isCorrect, correctAnswers, selectedShuffledOptions);
     }
 
     arraysEqual(arr1, arr2) {
@@ -1321,12 +1344,13 @@ class MultipleChoiceQuiz {
         return true;
     }
 
-    showFeedback(isCorrect, correctAnswers, selectedOptions) {
+    showFeedback(isCorrect, correctAnswers, selectedShuffledOptions) {
         document.querySelectorAll('.option').forEach((optionDiv, index) => {
             const checkbox = optionDiv.querySelector('input');
-            if (correctAnswers.includes(index)) {
+            const originalIndex = this.currentQuestionMapping[index];
+            if (correctAnswers.includes(originalIndex)) {
                 optionDiv.classList.add('correct');
-            } else if (selectedOptions.includes(index)) {
+            } else if (selectedShuffledOptions.includes(index)) {
                 optionDiv.classList.add('incorrect');
             }
             checkbox.disabled = true;
@@ -1387,8 +1411,8 @@ class MultipleChoiceQuiz {
             const wrongAnswerDiv = document.createElement('div');
             wrongAnswerDiv.className = 'wrong-answer-item';
             const question = answer.question;
-            const userAnswerTexts = answer.userAnswers.map(i => question.options[i]).join(', ');
-            const correctAnswerTexts = answer.correctAnswers.map(i => question.options[i]).join(', ');
+            const userAnswerTexts = answer.userAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
+            const correctAnswerTexts = answer.correctAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
             wrongAnswerDiv.innerHTML = `
                 <div class="wrong-answer-question">${question.question}</div>
                 <div class="wrong-answer-details">

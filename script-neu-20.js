@@ -614,6 +614,20 @@ class MultipleChoiceQuiz {
         return shuffled.slice(0, count);
     }
 
+    shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    formatOptionText(option, displayIndex = null) {
+        const text = option.replace(/^[a-z]\.\s*/i, '');
+        return displayIndex === null ? text : `${displayIndex + 1}. ${text}`;
+    }
+
     displayQuestion() {
         const question = this.selectedQuestions[this.currentQuestionIndex];
         
@@ -625,11 +639,19 @@ class MultipleChoiceQuiz {
         // Display question
         document.getElementById('question-text').textContent = question.question;
 
-        // Display options
         const optionsContainer = document.getElementById('options-container');
         optionsContainer.innerHTML = '';
 
-        question.options.forEach((option, index) => {
+        const shuffledOptions = this.shuffleArray(
+            question.options.map((option, originalIndex) => ({
+                text: option,
+                originalIndex
+            }))
+        );
+        this.currentQuestionMapping = {};
+
+        shuffledOptions.forEach((option, index) => {
+            this.currentQuestionMapping[index] = option.originalIndex;
             const optionDiv = document.createElement('div');
             optionDiv.className = 'option';
             
@@ -641,7 +663,7 @@ class MultipleChoiceQuiz {
             
             const label = document.createElement('label');
             label.htmlFor = `option-${index}`;
-            label.textContent = option;
+            label.textContent = this.formatOptionText(option.text, index);
 
             optionDiv.appendChild(checkbox);
             optionDiv.appendChild(label);
@@ -661,13 +683,14 @@ class MultipleChoiceQuiz {
 
     checkAnswer() {
         const question = this.selectedQuestions[this.currentQuestionIndex];
-        const selectedOptions = Array.from(document.querySelectorAll('input[name="answer"]:checked'))
+        const selectedShuffledOptions = Array.from(document.querySelectorAll('input[name="answer"]:checked'))
             .map(input => parseInt(input.value));
+        const selectedOptions = selectedShuffledOptions.map(index => this.currentQuestionMapping[index]);
 
         const correctAnswers = question.correct_indices;
         
         // Check if answer is correct
-        const isCorrect = this.arraysEqual(selectedOptions.sort(), correctAnswers.sort());
+        const isCorrect = this.arraysEqual([...selectedOptions].sort(), [...correctAnswers].sort());
 
         // Save user answer
         this.userAnswers.push({
@@ -682,7 +705,7 @@ class MultipleChoiceQuiz {
         }
 
         // Show feedback and highlight correct/incorrect answers
-        this.showFeedback(isCorrect, correctAnswers, selectedOptions);
+        this.showFeedback(isCorrect, correctAnswers, selectedShuffledOptions);
     }
 
     arraysEqual(arr1, arr2) {
@@ -693,14 +716,15 @@ class MultipleChoiceQuiz {
         return true;
     }
 
-    showFeedback(isCorrect, correctAnswers, selectedOptions) {
+    showFeedback(isCorrect, correctAnswers, selectedShuffledOptions) {
         // Highlight options
         document.querySelectorAll('.option').forEach((optionDiv, index) => {
             const checkbox = optionDiv.querySelector('input');
+            const originalIndex = this.currentQuestionMapping[index];
             
-            if (correctAnswers.includes(index)) {
+            if (correctAnswers.includes(originalIndex)) {
                 optionDiv.classList.add('correct');
-            } else if (selectedOptions.includes(index)) {
+            } else if (selectedShuffledOptions.includes(index)) {
                 optionDiv.classList.add('incorrect');
             }
             
@@ -780,8 +804,8 @@ class MultipleChoiceQuiz {
             wrongAnswerDiv.className = 'wrong-answer-item';
 
             const question = answer.question;
-            const userAnswerTexts = answer.userAnswers.map(i => question.options[i]).join(', ');
-            const correctAnswerTexts = answer.correctAnswers.map(i => question.options[i]).join(', ');
+            const userAnswerTexts = answer.userAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
+            const correctAnswerTexts = answer.correctAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
 
             wrongAnswerDiv.innerHTML = `
                 <div class="wrong-answer-question">${question.question}</div>

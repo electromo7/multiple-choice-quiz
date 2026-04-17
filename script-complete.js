@@ -1579,6 +1579,11 @@ class MultipleChoiceQuiz {
         return shuffled;
     }
 
+    formatOptionText(option, displayIndex = null) {
+        const text = option.replace(/^[a-z]\.\s*/i, '');
+        return displayIndex === null ? text : `${displayIndex + 1}. ${text}`;
+    }
+
     displayQuestion() {
         const question = this.selectedQuestions[this.currentQuestionIndex];
         
@@ -1620,7 +1625,7 @@ class MultipleChoiceQuiz {
             checkbox.addEventListener('change', () => this.updateSubmitButton());
 
             optionElement.appendChild(checkbox);
-            optionElement.appendChild(document.createTextNode(option.text));
+            optionElement.appendChild(document.createTextNode(this.formatOptionText(option.text, index)));
             optionsContainer.appendChild(optionElement);
         });
 
@@ -1649,8 +1654,8 @@ class MultipleChoiceQuiz {
 
         // Check if answer is correct
         const isCorrect = this.arraysEqual(
-            this.selectedAnswers.sort(),
-            correctAnswers.sort()
+            [...this.selectedAnswers].sort(),
+            [...correctAnswers].sort()
         );
 
         if (isCorrect) {
@@ -1767,8 +1772,8 @@ class MultipleChoiceQuiz {
             wrongAnswerDiv.className = 'wrong-answer-item';
 
             const question = answer.question;
-            const userAnswerTexts = answer.userAnswers.map(i => question.options[i]).join(', ');
-            const correctAnswerTexts = answer.correctAnswers.map(i => question.options[i]).join(', ');
+            const userAnswerTexts = answer.userAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
+            const correctAnswerTexts = answer.correctAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
 
             wrongAnswerDiv.innerHTML = `
                 <div class="wrong-answer-question">${question.question}</div>

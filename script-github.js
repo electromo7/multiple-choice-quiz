@@ -98,6 +98,11 @@ class MultipleChoiceQuiz {
         return shuffled;
     }
 
+    formatOptionText(option, displayIndex = null) {
+        const text = option.replace(/^[a-z]\.\s*/i, '');
+        return displayIndex === null ? text : `${displayIndex + 1}. ${text}`;
+    }
+
     displayQuestion() {
         const question = this.selectedQuestions[this.currentQuestionIndex];
         
@@ -113,9 +118,19 @@ class MultipleChoiceQuiz {
         const optionsContainer = document.getElementById('options-container');
         optionsContainer.innerHTML = '';
 
-        question.options.forEach((option, index) => {
+        const visibleOptions = question.options
+            .map((option, originalIndex) => ({
+                text: option,
+                originalIndex
+            }))
+            .filter(option => !option.text.toLowerCase().includes('siehe seite'));
+        const shuffledOptions = this.shuffleArray(visibleOptions);
+        this.currentQuestionMapping = {};
+
+        shuffledOptions.forEach((option, index) => {
+            this.currentQuestionMapping[index] = option.originalIndex;
             // Skip options that look like references (e.g., "Siehe Seite...")
-            if (option.toLowerCase().includes('siehe seite')) {
+            if (option.text.toLowerCase().includes('siehe seite')) {
                 return;
             }
 
@@ -129,7 +144,7 @@ class MultipleChoiceQuiz {
             checkbox.addEventListener('change', () => this.updateSubmitButton());
 
             optionElement.appendChild(checkbox);
-            optionElement.appendChild(document.createTextNode(option));
+            optionElement.appendChild(document.createTextNode(this.formatOptionText(option.text, index)));
             optionsContainer.appendChild(optionElement);
         });
 
@@ -146,15 +161,16 @@ class MultipleChoiceQuiz {
 
     submitAnswer() {
         const checkboxes = document.querySelectorAll('input[name="option"]:checked');
-        this.selectedAnswers = Array.from(checkboxes).map(cb => parseInt(cb.value));
+        const shuffledSelectedAnswers = Array.from(checkboxes).map(cb => parseInt(cb.value));
+        this.selectedAnswers = shuffledSelectedAnswers.map(index => this.currentQuestionMapping[index]);
 
         const question = this.selectedQuestions[this.currentQuestionIndex];
         const correctAnswers = question.correct_indices;
 
         // Check if answer is correct
         const isCorrect = this.arraysEqual(
-            this.selectedAnswers.sort(),
-            correctAnswers.sort()
+            [...this.selectedAnswers].sort(),
+            [...correctAnswers].sort()
         );
 
         if (isCorrect) {
@@ -169,7 +185,7 @@ class MultipleChoiceQuiz {
             isCorrect: isCorrect
         });
 
-        this.showAnswerFeedback(isCorrect, correctAnswers);
+        this.showAnswerFeedback(isCorrect, correctAnswers, shuffledSelectedAnswers);
     }
 
     arraysEqual(arr1, arr2) {
@@ -177,19 +193,20 @@ class MultipleChoiceQuiz {
         return arr1.every((val, index) => val === arr2[index]);
     }
 
-    showAnswerFeedback(isCorrect, correctAnswers) {
+    showAnswerFeedback(isCorrect, correctAnswers, shuffledSelectedAnswers) {
         // Disable all options and show correct/incorrect styling
         const options = document.querySelectorAll('.option');
         const checkboxes = document.querySelectorAll('input[name="option"]');
         
         checkboxes.forEach(checkbox => {
             checkbox.disabled = true;
-            const optionIndex = parseInt(checkbox.value);
+            const shuffledIndex = parseInt(checkbox.value);
+            const optionIndex = this.currentQuestionMapping[shuffledIndex];
             const optionElement = checkbox.parentElement;
             
             if (correctAnswers.includes(optionIndex)) {
                 optionElement.classList.add('correct');
-            } else if (this.selectedAnswers.includes(optionIndex)) {
+            } else if (shuffledSelectedAnswers.includes(shuffledIndex)) {
                 optionElement.classList.add('incorrect');
             }
             
@@ -269,8 +286,8 @@ class MultipleChoiceQuiz {
             wrongAnswerDiv.className = 'wrong-answer-item';
 
             const question = answer.question;
-            const userAnswerTexts = answer.userAnswers.map(i => question.options[i]).join(', ');
-            const correctAnswerTexts = answer.correctAnswers.map(i => question.options[i]).join(', ');
+            const userAnswerTexts = answer.userAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
+            const correctAnswerTexts = answer.correctAnswers.map(i => this.formatOptionText(question.options[i])).join(', ');
 
             wrongAnswerDiv.innerHTML = `
                 <div class="wrong-answer-question">${question.question}</div>
