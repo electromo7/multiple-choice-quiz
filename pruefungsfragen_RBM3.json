@@ -7,7 +7,7 @@
       "c. Stammeinlagen",
       "d. Gewinnrücklage"
     ],
-    "correct_indices": [1, 2, 3]
+    "correct_indices": [2, 3]
   },
   {
     "question": "Welche(n) Unterschied(e) gibt es zwischen G&V-Sicht und Deckungsbeitrags-Sicht in der Erfolgsrechnung?",
@@ -67,7 +67,7 @@
       "c. Konzentrationsrisiko",
       "d. Länderrisiko"
     ],
-    "correct_indices": [0, 2]
+    "correct_indices": [0, 2, 3]
   },
   {
     "question": "Kreditinstitute und Kreditinstitutsgruppen haben das besondere bankgeschäftliche Risiko von Großkrediten jederzeit angemessen zu begrenzen. Vorgabe(n) ist/sind gemäß CRR II für Großkredite zu beachten?",
@@ -87,7 +87,7 @@
       "c. Die CRR verpflichtet jedes Kreditinstitut zur Prüfung des Jahresabschlusses.",
       "d. Der Abschlussprüfer hat über das Ergebnis der Prüfung schriftlich zu berichten."
     ],
-    "correct_indices": [0, 3]
+    "correct_indices": [3]
   },
   {
     "question": "Welche der folgenden Vermögensbestandteile werden zukünftig zu den „hoch liquiden Aktiva“ gezählt, um die Liquidity Coverage Ratio...?",
@@ -197,7 +197,7 @@
       "c. Einholung der Zustimmung durch Leitungs- und Kontrollausschuss",
       "d. Dokumentation von Entscheidungen"
     ],
-    "correct_indices": [0, 2, 3]
+    "correct_indices": [3]
   },
   {
     "question": "Der Member Value ist ein zentrales Anreizelement für das Mitwirken von Mitgliedern in einer Genossenschaft. Der wichtigste unmittelbare Member Value. Welche Praxisbeispiele für unmittelbaren Member Value in Raiffeisenbanken sind richtig?",
@@ -287,7 +287,7 @@
       "c. Wer ist verantwortlich für die Planung und Umsetzung der strategischen Aktivitäten?",
       "d. Welche möglichen Zielkonflikte sind zu erwarten und wie lösen wir sie?"
     ],
-    "correct_indices": [0, 2, 3]
+    "correct_indices": [0, 3]
   },
   {
     "question": "Der leitende Grundgedanke für den Einsatz einer Balanced Scorecard lautet: „Strategie in die Umsetzung bringen (from strategy to implementation). Welche Ausprägungspaare bestimmen die vier Felder einer BSC?",

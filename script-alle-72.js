@@ -9,9 +9,7 @@ const QUIZ_QUESTIONS = [
       "d. Gewinnrücklage"
     ],
     "correct_indices": [
-      1,
-      2,
-      3
+      2, 3
     ]
   },
   {
@@ -88,8 +86,7 @@ const QUIZ_QUESTIONS = [
       "d. Länderrisiko"
     ],
     "correct_indices": [
-      0,
-      2
+      0, 2, 3
     ]
   },
   {
@@ -114,7 +111,6 @@ const QUIZ_QUESTIONS = [
       "d. Der Abschlussprüfer hat über das Ergebnis der Prüfung schriftlich zu berichten."
     ],
     "correct_indices": [
-      0,
       3
     ]
   },
@@ -251,8 +247,6 @@ const QUIZ_QUESTIONS = [
       "d. Dokumentation von Entscheidungen"
     ],
     "correct_indices": [
-      0,
-      2,
       3
     ]
   },
@@ -370,9 +364,7 @@ const QUIZ_QUESTIONS = [
       "d. Welche möglichen Zielkonflikte sind zu erwarten und wie lösen wir sie?"
     ],
     "correct_indices": [
-      0,
-      2,
-      3
+      0, 3
     ]
   },
   {
