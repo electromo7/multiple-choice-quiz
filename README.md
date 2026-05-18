@@ -18,7 +18,7 @@ Die Applikation ist als GitHub Page verfügbar:
 - **[Komplett-Quiz (72 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-alle-72.html)** - RBM3 + RBM4 + Bankenaufsicht ⭐ NEU!
 - **[Bankenaufsichtsrecht (20 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-neu-20.html)** ⭐ NEU!
 - [RBM3 & RBM4 Quiz (52 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-rbm3-rbm4.html)
-- [Original Quiz (108 Fragen)](https://electromo7.github.io/multiple-choice-quiz/)
+- [Original Quiz (116 Fragen)](https://electromo7.github.io/multiple-choice-quiz/)
 
 ## 💻 Lokale Nutzung
 
