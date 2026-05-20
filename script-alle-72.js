@@ -1,4 +1,4 @@
-// Kombiniertes Quiz: RBM3 (40) + RBM4 (12) + NEU (40) = 92 Fragen
+// Kombiniertes Quiz: RBM3 (40) + RBM4 (12) + NEU (49) = 101 Fragen
 const QUIZ_QUESTIONS = [
   {
     "question": "Welche der foglenden Kapitalinstrumente zählen nach CRR/CRR II zum harten Kernkapital (CET1)?",
@@ -9,7 +9,8 @@ const QUIZ_QUESTIONS = [
       "d. Gewinnrücklage"
     ],
     "correct_indices": [
-      2, 3
+      2,
+      3
     ]
   },
   {
@@ -86,7 +87,9 @@ const QUIZ_QUESTIONS = [
       "d. Länderrisiko"
     ],
     "correct_indices": [
-      0, 2, 3
+      0,
+      2,
+      3
     ]
   },
   {
@@ -364,7 +367,8 @@ const QUIZ_QUESTIONS = [
       "d. Welche möglichen Zielkonflikte sind zu erwarten und wie lösen wir sie?"
     ],
     "correct_indices": [
-      0, 3
+      0,
+      3
     ]
   },
   {
@@ -1189,6 +1193,114 @@ const QUIZ_QUESTIONS = [
       "b. Durch die Anwendung von Basel IV werden die Prinzipien nach Basel III zur Gänze aufgehoben.",
       "c. Basel IV wurde innerhalb der EU durch die Eigenkapitalrichtlinie (CRD III) umgesetzt.",
       "d. Das Schwergewicht der Änderungen durch Basel IV bezieht sich auf Änderungen bei der Berechnung der RWA bzw. auf die Höhe der Eigenmittelerfordernisse."
+    ],
+    "correct_indices": [
+      3
+    ]
+  },
+  {
+    "question": "14963. Wie oft werden gemäß § 39 BWG die Zweckmäßigkeit der internen Kontrollsysteme und deren Anwendung in der Bank geprüft und gegebenenfalls angepasst?",
+    "options": [
+      "a. In regelmäßigen Abständen, mindestens halbjährlich",
+      "b. Im Anlassfall, mindestens halbjährlich",
+      "c. In regelmäßigen Abständen, mindestens vierteljährlich",
+      "d. In regelmäßigen Abständen, mindestens einmal jährlich"
+    ],
+    "correct_indices": [
+      3
+    ]
+  },
+  {
+    "question": "17384. An welche Kriterien ist die ‚Entlastung‘ geknüpft?",
+    "options": [
+      "a. Geschäftsleiter:innen haben vor dem Verstoß ausführlich mit anderen Geschäftsleiter:innen über die Entscheidung gesprochen und diese dokumentiert.",
+      "b. Die Umstände der Haftung waren der Generalversammlung zum Zeitpunkt der Beschlussfassung hinreichend bekannt.",
+      "c. Die Haftungsbefreiung erfolgt durch einen Beschluss der Generalversammlung.",
+      "d. Für die Generalversammlung muss der Verstoß des Geschäftsleiters vor Beschlussfassung erkennbar gewesen sein."
+    ],
+    "correct_indices": [
+      2
+    ]
+  },
+  {
+    "question": "14962. Wie erfolgt in der Bank die Behandlung des Risikoberichtes?",
+    "options": [
+      "a. Der Risikobericht wird in laufenden Abständen – mindestens aber vierteljährlich – erstellt, ist von den Geschäftsleitern zur Kenntnis zu nehmen und ist an das Aufsichtsorgan weiterzuleiten und zu berichten.",
+      "b. Der Risikobericht wird halbjährlich erstellt, ist von den Geschäftsleitern zur Kenntnis zu nehmen und ist an das Aufsichtsorgan weiterzuleiten.",
+      "c. Der Risikobericht wird in laufenden Abständen – mindestens aber jährlich – erstellt, ist von den Geschäftsleitern zur Kenntnis zu nehmen und ist an das Aufsichtsorgan weiterzuleiten und zu berichten.",
+      "d. Der Risikobericht wird monatlich erstellt, ist von den Geschäftsleitern zur Kenntnis zu nehmen und ist mindestens einmal jährlich an das Aufsichtsorgan weiterzuleiten und zu berichten."
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "17378. Was ist Fahrlässigkeit?",
+    "options": [
+      "a. Das Außerachtlassen der gebotenen Sorgfalt.",
+      "b. Der Schadensverursacher hält den Schaden für möglich und nimmt ihn billigend in Kauf.",
+      "c. Das Verursachen eines Schadens.",
+      "d. Ein Ereignis, das von einem Fachmann nicht abwendbar gewesen wäre."
+    ],
+    "correct_indices": [
+      0
+    ]
+  },
+  {
+    "question": "14984. Welche Rollen sind einem Ökosystem – als eine Weiterentwicklung von Netzwerken – in der Regel vertreten?",
+    "options": [
+      "a. Provider – stellt Leistungen bereit",
+      "b. Contributor – erledigen Sub-Leistungen",
+      "c. Controller – steuert und kontrolliert die Leistungsqualität",
+      "d. Orchestrator – organisiert Leistungen"
+    ],
+    "correct_indices": []
+  },
+  {
+    "question": "15000. Die Erwartungshaltung an Manager:innen in Bezug auf das erfolgreiche Ausführen ihrer Aufgaben ist oft eine sehr hohe. Welche Aufgaben von Manager:innen gehören zum Führungskräfte-AEIOU und sollten von Ihnen als Manager:in übernommen werden?",
+    "options": [
+      "a. Sie analysieren die Situation des Unternehmens",
+      "b. Sie kaufen und verkaufen Produkte und Dienstleistungen zum jeweils günstigsten Preis",
+      "c. Sie kontrollieren den Zielerreichungsgrad und messen die Umsetzung",
+      "d. Sie antizipieren Entwicklungen und initiieren Ideen- und Entscheidungsprozesse"
+    ],
+    "correct_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "15003. Seit einiger Zeit hast du mit deinem Vorstand – dem Obmann/der Obfrau – regelmäßigen Austausch zu einem bestimmten Thema, in dem ihr unterschiedlicher Meinung seid. Eure Beziehung ist unabhängig davon schon länger sehr belastet. Nun erhältst du von ihm/ihr eine Information von neutraler Quelle, die belegt, dass seine/ihre Argumente stichhaltig sind. Obwohl dir deine Vernunft sagt, dass du nun einlenken solltest, kommt das für dich nicht in Frage. Schließlich möchtest du nicht klein beigeben, noch dazu, wo dir dein Vorstand persönlich nicht liegt. Welches Kommunikationsaxiom von Paul Watzlawick scheint hier eine Rolle zu spielen?",
+    "options": [
+      "a. Menschliche Kommunikation bedient sich analoger und digitaler Modalitäten.",
+      "b. Man kann nicht nicht kommunizieren.",
+      "c. Kommunikation ist immer Ursache und Wirkung.",
+      "d. Jede Kommunikation hat einen Inhalts- und einen Beziehungsaspekt."
+    ],
+    "correct_indices": [
+      3
+    ]
+  },
+  {
+    "question": "15005. Eine deiner Top-Mitarbeiterinnen wendet sich immer wieder an dich, weil sie große Unsicherheiten im Umgang mit konflikthaften Situationen hat. Am liebsten hätte sie einen konkreten Ratschlag von dir. Du bist allerdings überzeugt, dass du sie mit den passenden Fragen besser unterstützen kannst. Wenn du an das Zwei-Achsen-Modell des Fragens denkst, welche Form wählst du in diesem Fall?",
+    "options": [
+      "a. Verhör: Information, druckvoll",
+      "b. Coaching: Reflexion, druckvoll",
+      "c. Interview: Information, gewährend",
+      "d. Inspiration: Reflexion, gewährend"
+    ],
+    "correct_indices": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "17382. Was bedeutet Untreue gemäß § 153 StGB?",
+    "options": [
+      "a. Untreue gemäß § 153 StGB begeht, wer den Kredit eines anderen schädigt.",
+      "b. Untreue gemäß § 153 StGB begeht, wer durch seine Geschäftsentscheidung Verluste verursacht.",
+      "c. Untreue gemäß § 153 StGB begeht, wer gröblich seine Berichtspflichten verletzt.",
+      "d. Untreue gemäß § 153 StGB begeht, wer seine Befugnis, über fremdes Vermögen zu verfügen, wissentlich missbraucht und dadurch den anderen am Vermögen schädigt."
     ],
     "correct_indices": [
       3
