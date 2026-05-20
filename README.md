@@ -15,7 +15,7 @@ Eine moderne Web-Applikation für Multiple Choice Tests mit sofortigem Feedback 
 
 Die Applikation ist als GitHub Page verfügbar:
 - **[📊 Übersicht aller Quiz-Versionen](https://electromo7.github.io/multiple-choice-quiz/overview.html)** ⭐ EMPFOHLEN!
-- **[Komplett-Quiz (101 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-alle-72.html)** - RBM3 + RBM4 + Bankenaufsicht ⭐ NEU!
+- **[Komplett-Quiz (92 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-alle-72.html)** - RBM3 + RBM4 + Bankenaufsicht ⭐ NEU!
 - **[Bankenaufsichtsrecht (20 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-neu-20.html)** ⭐ NEU!
 - [RBM3 & RBM4 Quiz (52 Fragen)](https://electromo7.github.io/multiple-choice-quiz/index-rbm3-rbm4.html)
 - [Original Quiz (116 Fragen)](https://electromo7.github.io/multiple-choice-quiz/)
